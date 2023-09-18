@@ -1,34 +1,31 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Choi":
+  - firstname: ["Yejin Choi", "Yejin"]
+    url: https://homes.cs.washington.edu/~yejin/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Smith":
+  - firstname: ["Noah A Smith", "Noah Smith", "Noah"]
+    url: https://nasmith.github.io/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Hajishirzi":
+  - firstname: ["Hannaneh Hajishirzi", "Hanna", "Hannaneh"]
+    url: https://homes.cs.washington.edu/~hannaneh/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Clark":
+  - firstname: ["Peter Clark", "Peter"]
+    url: https://allenai.org/team/peterc
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+"Gurevych":
+  - firstname: ["Iryna Gurevych", "Iryna"]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Reddy":
+  - firstname: ["Siva Reddy", "Siva"]
+    url: https://sivareddy.in/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Zaiane":
+  - firstname: ["Osmar Zaiane", "Osmar"]
+    url: http://webdocs.cs.ualberta.ca/~zaiane/index-legacy.html
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Mathewson":
+  - firstname: ["Kory Mathewson", "Kory"]
+    url: https://korymathewson.com/

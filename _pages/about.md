@@ -1,26 +1,36 @@
 ---
 layout: about
-title: about
+title: Nouha Dziri
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpg # find it in > assets > img
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a research scientist at AI2 working with [Yejin Choi](https://homes.cs.washington.edu/~yejin/) and the [Mosaic](https://mosaic.allenai.org/) team. 
+Prior to this, I earned my PhD in 2022 from the University of Alberta and the [Alberta Machine Intelligence Institute](https://www.amii.ca/) where I worked on reducing hallucination in conversational language models.
+Currently, my work revolves around three main axes:
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+- **Science of LMs:** Understanding the limits of Transformers and their inner workings.
+- **Innovation with learning:** Building smaller LMs that can learn more efficiently.
+- **Social impact of LMs:** Better aligning LMs with human values and ethical principles.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In the past, I was fortunate to work with brilliant researchers in the field.
+I have worked with <a href="https://sivareddy.in/">Siva Reddy</a> at Mila/McGill, 
+with <a href="https://hrashkin.github.io/index.html">Hannah Rashkin</a>, 
+<a href="https://tallinzen.net/research/">Tal Linzen</a>,
+<a href="http://www.david-reitter.com/">David Reitter</a>,
+<a href="https://cs.stanford.edu/~diyiy/">Diyi Yang</a>, and 
+<a href="https://research.google/people/105075/">Tom Kwiatkowski</a> at Google Research NYC 
+and have worked with <a href="https://www.microsoft.com/en-us/research/people/alsordon/">Alessandro Sordoni</a>, and 
+[Goeff Gordon](https://www.cs.cmu.edu/~ggordon/) at Microsoft Research Montreal.
+
+[//]: # (Link to your social media connections, too. This theme is set up to use [Font Awesome icons]&#40;http://fortawesome.github.io/Font-Awesome/&#41; and [Academicons]&#40;https://jpswalsh.github.io/academicons/&#41;, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.)
