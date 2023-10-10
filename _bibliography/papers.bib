@@ -39,7 +39,7 @@ abstract={Visual information is central to conversation: body gestures and facia
                   Allyson {Ettinger} and
                   Zaid {Harchaoui} and
                   Yejin {Choi}},
-  booktitle={arXiv},
+  booktitle={Neurips},
   month=June,
   year={2023},
   url={https://arxiv.org/abs/2305.18654},
@@ -51,11 +51,10 @@ abstract={Visual information is central to conversation: body gestures and facia
 
 
 
-
 @inproceedings{rlhf,
   title={Fine-Grained Human Feedback Gives Better Rewards for Language Model Training},
   author={Zeqiu Wu  and Yushi Hu  and Weijia Shi  and Nouha Dziri  and Alane Suhr  and Prithviraj Ammanabrolu  and Noah Smith  and Mari Ostendorf  and Hannaneh Hajishirzi},
-  booktitle={arXiv},
+  booktitle={Neurips},
   month=June,
   year={2023},
   url={https://arxiv.org/pdf/2306.01693},
@@ -66,10 +65,22 @@ abstract={Visual information is central to conversation: body gestures and facia
 abstract={Language models (LMs) often exhibit undesirable text generation behaviors, including generating false, toxic, or irrelevant outputs. Reinforcement learning from human feedback (RLHF) - where human preference judgments on LM outputs are transformed into a learning signal - has recently shown promise in addressing these issues. However, such holistic feedback conveys limited information on long text outputs; it does not indicate which aspects of the outputs influenced user preference; e.g., which parts contain what type(s) of errors. In this paper, we use fine-grained human feedback (e.g., which sentence is false, which sub-sentence is irrelevant) as an explicit training signal. We introduce Fine-Grained RLHF, a framework that enables training and learning from reward functions that are fine-grained in two respects: (1) density, providing a reward after every segment (e.g., a sentence) is generated; and (2) incorporating multiple reward models associated with different feedback types (e.g., factual incorrectness, irrelevance, and information incompleteness). We conduct experiments on detoxification and long-form question answering to illustrate how learning with such reward functions leads to improved performance, supported by both automatic and human evaluation. Additionally, we show that LM behaviors can be customized using different combinations of fine-grained reward models. We release all data, collected human feedback, and codes at https://FineGrainedRLHF.github.io.}
 }
 
+@inproceedings{ethic,
+  title={What Makes it Ok to Set a Fire? Iterative Self-distillation of Contexts and Rationales for Disambiguating Defeasible Social and Moral Situations},
+  author={Kavel Rao, Liwei Jiang, Valentina Pyatkin, Yuling Gu, Faeze Brahman, Niket Tandon, Nouha Dziri, Faeze Brahman, Yejin Choi},
+  booktitle={EMNLP},
+  month=May,
+  year={2023},
+  url={},
+  preview={defeasible.png},
+  arxiv={},
+  abstract={}
+}
+
 @inproceedings{ipa,
   title={Inference-Time Policy Adapters (IPA): Tailoring Extreme-Scale LMs without Fine-tuning},
   author={Ximing Lu and Faeze Brahman and Peter West and Jaehun Jang and Khyathi Chandu and Abhilasha Ravichander and Lianhui Qin and Prithviraj Ammanabrolu and Liwei Jiang and Sahana Ramnath and Nouha Dziri and Jillian Fisher and Bill Yuchen Lin and Skyler Hallinan and Xiang Ren and Sean Welleck and Yejin Choi},
-  booktitle={arXiv},
+  booktitle={EMNLP},
   month=May,
   year={2023},
   url={https://arxiv.org/pdf/2305.15065},
@@ -77,8 +88,6 @@ abstract={Language models (LMs) often exhibit undesirable text generation behavi
   arxiv={2305.15065},
 abstract={Large language models excel at a variety of language tasks when prompted with examples or instructions. Yet controlling these models through prompting alone is limited. Tailoring language models through fine-tuning (e.g., via reinforcement learning) can be effective, but it is expensive and requires model access. We propose Inference-time Policy Adapters (IPA), which efficiently tailors a language model such as GPT-3 without fine-tuning it. IPA guides a large base model during decoding time through a lightweight policy adaptor trained to optimize an arbitrary user objective with reinforcement learning. On five challenging text generation tasks, such as toxicity reduction and open-domain generation, IPA consistently brings significant improvements over off-the-shelf language models. It outperforms competitive baseline methods, sometimes even including expensive fine-tuning. In particular, tailoring GPT-2 with IPA can outperform GPT-3, while tailoring GPT- 3 with IPA brings a major performance boost over GPT-3 (and sometimes even over GPT-4). Our promising results highlight the potential of IPA as a lightweight alternative to tailoring extreme-scale language models.}
 }
-
-
 
 @inproceedings{refine,
   title={Self-refine: Iterative refinement with self-feedback},
@@ -97,7 +106,7 @@ abstract={Large language models excel at a variety of language tasks when prompt
                   Shashank Gupta and
                   Amir Yazdanbakhsh and
                   Peter Clark},
-  booktitle={arXiv},
+  booktitle={Neurips},
   month=Mar,
   year={2023},
   url={https://arxiv.org/abs/2303.17651},

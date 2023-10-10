@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:partying_face: 3 papers accepted at Neurips. See you at New orleans :airplane:
+:partying_face: 3 papers accepted at Neurips. See you in New orleans :airplane:
