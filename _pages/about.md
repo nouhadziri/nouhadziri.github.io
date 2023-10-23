@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a research scientist at AI2 working with [Yejin Choi](https://homes.cs.washington.edu/~yejin/) and the [Mosaic](https://mosaic.allenai.org/) team. 
+I'm a research scientist at [Allen Institute for AI](https://allenai.org/) working with [Yejin Choi](https://homes.cs.washington.edu/~yejin/) and the [Mosaic](https://mosaic.allenai.org/) team. 
 Prior to this, I earned my PhD in 2022 from the University of Alberta and the [Alberta Machine Intelligence Institute](https://www.amii.ca/) where I worked on reducing hallucination in conversational language models.
 Currently, my work revolves around three main axes:
 
