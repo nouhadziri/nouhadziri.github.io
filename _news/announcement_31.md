@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-2 papers accepted at EMNLP. See you in Singapore :airplane:
+2 papers accepted at EMNLP.

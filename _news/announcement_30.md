@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-3 papers accepted at Neurips. See you in New orleans :airplane:
+3 papers accepted at NeurIPS. See you in New Orleans :airplane:

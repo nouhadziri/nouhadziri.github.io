@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 New paper :mega: :sparkles: "Faith and Fate: Limits of Transformers in Compositionality" :sparkles: is out. [[Paper](https://arxiv.org/abs/2305.18654)]
-  (<span style="color: red">Neurips spotlight 2023</span>)
+  (<span style="color: red">NeurIPS Spotlight 2023</span>)
