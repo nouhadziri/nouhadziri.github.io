@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Gave a talk at the [Stanford NLP seminar](https://nlp.stanford.edu/seminar/details/nouhadziri.shtml) .
+Invited Talk: [Stanford NLP Seminar](https://nlp.stanford.edu/seminar/details/nouhadziri.shtml).

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited talk at **DeepMind Montreal** about evaluating consistency in dialogue systems.
+Invited Talk: **DeepMind Montreal** about evaluating consistency in dialogue systems.

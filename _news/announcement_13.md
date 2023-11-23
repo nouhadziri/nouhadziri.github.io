@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited talk at Montreal NLP Meetups about conversational AI.
+Invited Talk: Montreal NLP Meetups about conversational AI.
