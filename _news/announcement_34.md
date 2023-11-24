@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Invited Talk: Presented "Faith and Fate" at [SAIL workshop](https://sites.google.com/view/sail-ws-llms/program) on fundamental limits of LLMs.
+Invited Talk: Presented "[Faith and Fate](https://arxiv.org/pdf/2305.18654.pdf)" at [SAIL workshop](https://sites.google.com/view/sail-ws-llms/program) on fundamental limits of LLMs.
 
 
 

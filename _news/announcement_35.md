@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Invited Talk: Presented "Faith and Fate" in [ILCC CDT/NLP seminar](https://web.inf.ed.ac.uk/ilcc/news-events/seminars-2023/nuaha-dziri-seminar), University of Edinburgh. 
+Invited Talk: Presented "[Faith and Fate](https://arxiv.org/pdf/2305.18654.pdf)" in [ILCC CDT/NLP seminar](https://web.inf.ed.ac.uk/ilcc/news-events/seminars-2023/nuaha-dziri-seminar), University of Edinburgh. 
