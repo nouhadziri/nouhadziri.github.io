@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited Talk: Presented "[Faith and Fate](https://arxiv.org/pdf/2305.18654.pdf)" at the [University of Pittisburgh](https://calendar.pitt.edu/event/cs_seminar_faith_and_fate_limits_of_transformers_on_compositionality)]
+Invited Talk: Presented "[Faith and Fate](https://arxiv.org/pdf/2305.18654.pdf)" at the [University of Pittisburgh](https://calendar.pitt.edu/event/cs_seminar_faith_and_fate_limits_of_transformers_on_compositionality)
