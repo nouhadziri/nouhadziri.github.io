@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Guest Lecture: "Limits of Generative AI Models and Their Societal Implication" for the "Generative AI" course taught by [Prof. Adji Bousso](https://vertaix.princeton.edu/) at the Princeton University.
+Guest Lecture: "Limits of Generative AI Models and their Societal Implications" for the "Generative AI" course taught by [Prof. Adji Bousso](https://vertaix.princeton.edu/) at the Princeton University.
