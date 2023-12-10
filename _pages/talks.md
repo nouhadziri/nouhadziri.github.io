@@ -7,6 +7,7 @@ nav: true
 nav_order: 1
 ---
 
+- Dec 05, 2023: Guest Lecture about "Limits of Generative AI Models and Their Societal Implication" for the "Generative AI" course taught by [Prof. Adji Bousso](https://vertaix.princeton.edu/) at the **Princeton University**.
 - Nov 28, 2023: [LLM evaluation](https://sites.google.com/view/fm-eval-workshop/home) workshop at **The Alan Turing Institute**
 - Nov 24, 2023: [ILCC CDT/NLP Seminar](https://web.inf.ed.ac.uk/ilcc/news-events/seminars-2023/nuaha-dziri-seminar) at **University of Edinburgh**
 - Nov 23, 2023: **[SAIL workshop](https://sites.google.com/view/sail-ws-llms/program)** on fundamental limits on LLMs
