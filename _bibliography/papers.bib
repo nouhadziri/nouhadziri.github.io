@@ -3,8 +3,48 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{inductive,
+  title={Phenomenal yet puzzling: Testing inductive reasoning capabilities of language models with hypothesis refinement},
+  author={Linlu Qiu and Liwei Jiang and Ximing Lu and Melanie Sclar and  Valentina Pyatkin and Chandra Bhagavatula and Bailin Wang and Yoon Kim and Yejin Choi and Nouha Dziri and Xiang Ren},
+  booktitle={ICLR},
+  month=Jan,
+  year={2024},
+  url={https://arxiv.org/abs/2310.08559},
+  preview={inductive.png},
+  code={https://github.com/linlu-qiu/lm-inductive-reasoning},
+  arxiv={2310.08559},
+abstract={The ability to derive underlying principles from a handful of observations and then generalize to novel situations -- known as inductive reasoning -- is central to human intelligence. Prior work suggests that language models (LMs) often fall short on inductive reasoning, despite achieving impressive success on research benchmarks. In this work, we conduct a systematic study of the inductive reasoning capabilities of LMs through iterative hypothesis refinement, a technique that more closely mirrors the human inductive process than standard input-output prompting. Iterative hypothesis refinement employs a three-step process: proposing, selecting, and refining hypotheses in the form of textual rules. By examining the intermediate rules, we observe that LMs are phenomenal hypothesis proposers (i.e., generating candidate rules), and when coupled with a (task-specific) symbolic interpreter that is able to systematically filter the proposed set of rules, this hybrid approach achieves strong results across inductive reasoning benchmarks that require inducing causal relations, language-like instructions, and symbolic concepts. However, they also behave as puzzling inductive reasoners, showing notable performance gaps between rule induction (i.e., identifying plausible rules) and rule application (i.e., applying proposed rules to instances), suggesting that LMs are proposing hypotheses without being able to actually apply the rules. Through empirical and human analyses, we further reveal several discrepancies between the inductive reasoning processes of LMs and humans, shedding light on both the potentials and limitations of using LMs in inductive reasoning tasks.}
+}
 
+@inproceedings{paradox,
+  title={The Generative AI Paradox: What It Can Create, It May Not Understand},
+  author={Peter West and Ximing Lu and Nouha Dziri and Faeze Brahman and Linjie Li and Jena D Hwang and Liwei Jiang and Jillian Fisher and Abhilasha Ravichander and Khyathi Chandu and Benjamin Newman and Pang Wei Koh and Allyson Ettinger and Yejin Choi},
+  booktitle={ICLR},
+  month=Dec,
+  year={2023},
+  url={https://arxiv.org/abs/2311.00059},
+  preview={paradox.png},
+  arxiv={2311.00059},
+abstract={The recent wave of generative AI has sparked unprecedented global attention, with both excitement and concern over potentially superhuman levels of artificial intelligence: models now take only seconds to produce outputs that would challenge or exceed the capabilities even of expert humans. At the same time, models still show basic errors in understanding that would not be expected even in non-expert humans. This presents us with an apparent paradox: how do we reconcile seemingly superhuman capabilities with the persistence of errors that few humans would make? In this work, we posit that this tension reflects a divergence in the configuration of intelligence in today's generative models relative to intelligence in humans. Specifically, we propose and test the Generative AI Paradox hypothesis: generative models, having been trained directly to reproduce expert-like outputs, acquire generative capabilities that are not contingent upon -- and can therefore exceed -- their ability to understand those same types of outputs. This contrasts with humans, for whom basic understanding almost always precedes the ability to generate expert-level outputs. We test this hypothesis through controlled experiments analyzing generation vs. understanding in generative models, across both language and image modalities. Our results show that although models can outperform humans in generation, they consistently fall short of human capabilities in measures of understanding, as well as weaker correlation between generation and understanding performance, and more brittleness to adversarial inputs. Our findings support the hypothesis that models' generative capability may not be contingent upon understanding capability, and call for caution in interpreting artificial intelligence by analogy to human intelligence.
+}
+}
 
+@inproceedings{urial,
+  title={The Unlocking Spell on Base LLMs: Rethinking Alignment via In-Context Learning},
+  author={Bill Yuchen Lin  and Abhilasha Ravichander  and Ximing Lu and Nouha Dziri  and Melanie Sclar and Khyathi Chandu and Chandra Bhagavatula and Yejin Choi},
+  booktitle={ICLR},
+  month=Dec,
+  year={2023},
+  url={https://arxiv.org/abs/2312.01552},
+  preview={urial.png},
+  arxiv={2312.01552},
+  code={https://github.com/Re-Align/just-eval},
+  website={https://allenai.github.io/re-align/},
+  data={https://github.com/Re-Align/urial},
+abstract={The alignment tuning process of large language models (LLMs) typically involves instruction learning through supervised fine-tuning (SFT) and preference tuning via reinforcement learning from human feedback (RLHF). A recent study, LIMA (Zhou et al. 2023), shows that using merely 1K examples for SFT can achieve significant alignment performance as well, suggesting that the effect of alignment tuning might be "superficial." This raises questions about how exactly the alignment tuning transforms a base LLM.
+We analyze the effect of alignment tuning by examining the token distribution shift between base LLMs and their aligned counterpart. Our findings reveal that base LLMs and their alignment-tuned versions perform nearly identically in decoding on the majority of token positions. Most distribution shifts occur with stylistic tokens. These direct evidence strongly supports the Superficial Alignment Hypothesis suggested by LIMA.
+Based on these findings, we rethink the alignment of LLMs by posing the research question: how effectively can we align base LLMs without SFT or RLHF? To address this, we introduce a simple, tuning-free alignment method, URIAL. URIAL achieves effective alignment purely through in-context learning (ICL) with base LLMs, requiring as few as three constant stylistic examples and a system prompt. We conduct a fine-grained and interpretable evaluation on a diverse set of examples, named JUST-EVAL-INSTRUCT. Results demonstrate that base LLMs with URIAL can match or even surpass the performance of LLMs aligned with SFT or SFT+RLHF. We show that the gap between tuning-free and tuning-based alignment methods can be significantly reduced through strategic prompting and ICL. Our findings on the superficial nature of alignment tuning and results with URIAL suggest that deeper analysis and theoretical understanding of alignment is crucial to future LLM research.}
+}
 
 @inproceedings{urial,
   title={The Unlocking Spell on Base LLMs: Rethinking Alignment via In-Context Learning},
