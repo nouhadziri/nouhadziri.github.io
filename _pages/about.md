@@ -15,13 +15,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a research scientist at [Allen Institute for AI](https://allenai.org/) working with [Yejin Choi](https://homes.cs.washington.edu/~yejin/) and the [Mosaic](https://mosaic.allenai.org/) team. 
-Prior to this, I earned my PhD in 2022 from the University of Alberta and the [Alberta Machine Intelligence Institute](https://www.amii.ca/) where I worked on reducing hallucination in conversational language models.
+I'm a research scientist at [Allen Institute for AI](https://allenai.org/) working with [Yejin Choi](https://homes.cs.washington.edu/~yejin/) and the [Mosaic](https://mosaic.allenai.org/) team.
 Currently, my work revolves around three main axes:
 
 - **Science of LMs:** Understanding the limits of Transformers and their inner workings.
-- **Innovation with learning:** Building smaller LMs that can learn more efficiently.
-- **Social impact of LMs:** Better aligning LMs with human values and ethical principles.
+- **Safety of LMs:** Make LMs safer by aligning them with human values and ethical principles.
 
 In the past, I was fortunate to work with brilliant researchers in the field.
 I have worked with <a href="https://sivareddy.in/">Siva Reddy</a> at Mila/McGill, 
