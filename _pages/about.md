@@ -21,7 +21,8 @@ Currently, my work revolves around three main axes:
 - **Science of LMs:** Understanding the limits of Transformers and their inner workings.
 - **Safety of LMs:** Make LMs safer by aligning them with human values and ethical principles.
 
-In the past, I was fortunate to work with brilliant researchers in the field.
+In the past, I earned my PhD in 2022 from the University of Alberta and the [Alberta Machine Intelligence Institute](https://www.amii.ca/).
+I was also fortunate to work with brilliant researchers in the field.
 I have worked with <a href="https://sivareddy.in/">Siva Reddy</a> at Mila/McGill, 
 with <a href="https://hrashkin.github.io/index.html">Hannah Rashkin</a>, 
 <a href="https://tallinzen.net/research/">Tal Linzen</a>,
