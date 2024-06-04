@@ -16,10 +16,10 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I'm a research scientist at [Allen Institute for AI](https://allenai.org/) working with [Yejin Choi](https://homes.cs.washington.edu/~yejin/) and the [Mosaic](https://mosaic.allenai.org/) team.
-Currently, my work revolves around two main axes:
+Currently, I **lead the safety effort at AI2** to align [OLMO models](https://allenai.org/olmo) with ethical principles while preserving their reasoning capabilities. Besides safety, I work on 
 
-- **Science of LMs:** Understanding the limits of Transformers and their inner workings.
-- **Safety of LMs:** Make LMs safer by aligning them with human values and ethical principles.
+- **Science of LMs:** Understanding the limits of Transformers and their inner workings. Check out "[Faith and Fate](https://arxiv.org/pdf/2305.18654)" for learning about the limits of Transformers on compositionality.
+
 
 In the past, I earned my PhD from the **University of Alberta** and the [Alberta Machine Intelligence Institute](https://www.amii.ca/) with [Osmar Zaiane](https://webdocs.cs.ualberta.ca/~zaiane/).
 I was also fortunate to work with brilliant researchers in the field.
