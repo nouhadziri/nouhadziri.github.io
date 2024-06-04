@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a research scientist at [Allen Institute for AI](https://allenai.org/) working with [Yejin Choi](https://homes.cs.washington.edu/~yejin/) and the [Mosaic](https://mosaic.allenai.org/) team.
+I'm a research scientist at [Allen Institute for AI (AI2)](https://allenai.org/) working with [Yejin Choi](https://homes.cs.washington.edu/~yejin/) and the [Mosaic](https://mosaic.allenai.org/) team.
 Currently, **I  lead the safety effort at AI2** to align [OLMO models](https://allenai.org/olmo) with ethical principles while preserving their reasoning capabilities. Besides safety, I work on 
 
 - **Science of LMs:** Understanding the limits of Transformers and their inner workings. Check out "[Faith and Fate](https://arxiv.org/pdf/2305.18654)" to learn about the limits of Transformers on reasoning tasks.
