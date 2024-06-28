@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited Talk "What it can create, it may not understand" Studying the Limits of Transformers" at the [University of Cambridge](https://talks.cam.ac.uk/show/archive/60438).
+Invited Talk "What it can create, it may not understand: Studying the Limits of Transformers" at the [University of Cambridge](https://talks.cam.ac.uk/show/archive/60438).
