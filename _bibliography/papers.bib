@@ -3,6 +3,73 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{rewardBench,
+  title={WildBench: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild},
+  author={Bill Yuchen Lin and Yuntian Deng and Khyathi Chandu and Faeze Brahman and Abhilasha Ravichander and Valentina Pyatkin and Nouha Dziri and Ronan Le Bras and Yejin Choi}
+  booktitle={Arxiv},
+  month=June,
+  year={2024},
+  url={https://arxiv.org/pdf/2406.04770},
+  preview={wildbench.png},
+  code={https://huggingface.co/spaces/allenai/WildBench},
+  arxiv={2406.04770},
+abstract={We introduce WildBench, an automated evaluation framework designed to benchmark large language models (LLMs) using challenging, real-world user queries.
+WILDBENCH consists of 1,024 tasks carefully selected from over one million
+human-chatbot conversation logs. For automated evaluation with WILDBENCH,
+we have developed two metrics, WB-Reward and WB-Score, which are computable
+using advanced LLMs such as GPT-4-turbo. WILDBENCH evaluation uses taskspecific checklists to evaluate model outputs systematically and provides structured
+explanations that justify the scores and comparisons, resulting in more reliable
+and interpretable automatic judgments. WB-Reward employs fine-grained pairwise comparisons between model responses, generating five potential outcomes:
+much better, slightly better, slightly worse, much worse, or a tie. Unlike previous
+evaluations that employed a single baseline model, we selected three baseline models at varying performance levels to ensure a comprehensive pairwise evaluation.
+Additionally, we propose a simple method to mitigate length bias, by converting
+outcomes of “slightly better/worse” to “tie” if the winner response exceeds the
+loser one by more than K characters. WB-Score evaluates the quality of model
+outputs individually, making it a fast and cost-efficient evaluation metric. WILDBENCH results demonstrate a strong correlation with the human-voted Elo ratings
+from Chatbot Arena on hard tasks. Specifically, WB-Reward achieves a Pearson
+correlation of 0.98 with top-ranking models. Additionally, WB-Score reaches 0.95,
+surpassing both ArenaHard’s 0.91 and AlpacaEval2.0’s 0.89 for length-controlled
+win rates, as well as the 0.87 for regular win rates.}
+
+
+
+@inproceedings{rewardBench,
+  title={Rewardbench: Evaluating reward models for language modeling},
+  author={Nathan Lambert and Valentina Pyatkin and Jacob Morrison and LJ Miranda and Bill Yuchen Lin and Khyathi Chandu and Nouha Dziri and Sachin Kumar and Tom Zick and Yejin Choi and Noah A Smith and Hannaneh Hajishirzi},
+  booktitle={Arxiv},
+  month=March,
+  year={2024},
+  url={https://arxiv.org/pdf/2403.13787},
+  preview={reward.png},
+  code={https://github.com/allenai/reward-bench},
+  arxiv={2403.13787},
+abstract={Reward models (RMs) are at the crux of successfully using RLHF to align pretrained models to human preferences, yet there has been relatively little study
+that focuses on evaluation of those models. Evaluating reward models presents
+an opportunity to understand thereward
+ opaque technologies used for alignment of language models and which values are embedded in them. Resources for reward
+model training and understanding are sparse in the nascent open-source community around them. To enhance scientific understanding of reward models, we
+present REWARDBENCH, a benchmark dataset and code-base for evaluation. The
+REWARDBENCH dataset is a collection of prompt-chosen-rejected trios spanning
+chat, reasoning, and safety, to benchmark how reward models perform on challenging, structured and out-of-distribution queries. We create specific comparison
+datasets for RMs that have subtle, but verifiable reasons (e.g. bugs, incorrect facts)
+why one answer should be preferred to another. On the REWARDBENCH leaderboard, we evaluate reward models trained with a variety of methods, such as the
+direct MLE training of classifiers and the implicit reward modeling of Direct Preference Optimization (DPO). We present many findings on propensity for refusals,
+reasoning limitations, and instruction following shortcomings of various reward
+models towards a better understanding of the RLHF process.}
+
+
+
+@inproceedings{pluralistic,
+  title={A roadmap to pluralistic alignment},
+  author={Taylor Sorensen and Jared Moore and Jillian Fisher and Mitchell Gordon and Niloofar Mireshghallah and Christopher Michael Rytting and Andre Ye and Liwei Jiang and Ximing Lu and Nouha Dziri and Tim Althoff, Yejin Choi},
+  booktitle={ICML},
+  month=July,
+  year={2024},
+  url={https://arxiv.org/pdf/2402.05070},
+  preview={plua.png},
+  arxiv={2402.05070},
+abstract={With increased power and prevalence of AI systems, it is ever more critical that AI systems are designed to serve all, i.e., people with diverse values and perspectives. However, aligning models to serve pluralistic human values remains an open research question. In this piece, we propose a roadmap to pluralistic alignment, specifically using language models as a test bed. We identify and formalize three possible ways to define and operationalize pluralism in AI systems: 1) Overton pluralistic models that present a spectrum of reasonable responses; 2) Steerably pluralistic models that can steer to reflect certain perspectives; and 3) Distributionally pluralistic models that are well-calibrated to a given population in distribution. We also propose and formalize three possible classes of pluralistic benchmarks: 1) Multi-objective benchmarks, 2) Trade-off steerable benchmarks, which incentivize models to steer to arbitrary trade-offs, and 3) Jury-pluralistic benchmarks which explicitly model diverse human ratings. We use this framework to argue that current alignment techniques may be fundamentally limited for pluralistic AI; indeed, we highlight empirical evidence, both from our own experiments and from other work, that standard alignment procedures might reduce distributional pluralism in models, motivating the need for further research on pluralistic alignment.}
+
 @inproceedings{inductive,
   title={Phenomenal yet puzzling: Testing inductive reasoning capabilities of language models with hypothesis refinement},
   author={Linlu Qiu and Liwei Jiang and Ximing Lu and Melanie Sclar and  Valentina Pyatkin and Chandra Bhagavatula and Bailin Wang and Yoon Kim and Yejin Choi and Nouha Dziri and Xiang Ren},
