@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will serve as **Senior Area Chair** for ACL 2025 in the area of Ethics, Bias, and Fairness.
+I will serve as a **Senior Area Chair** for ACL 2025 in the area of Ethics, Bias, and Fairness.
