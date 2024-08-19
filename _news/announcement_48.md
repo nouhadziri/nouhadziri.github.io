@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Check out our new safety moderation tool [WildGuard](https://arxiv.org/pdf/2406.18495): a state-of-the-art open tool for assessing safety risks, jailbreaks, and refusals in LLMs. 
+Check out our :fire: new safety moderation tool :fire: [WildGuard](https://arxiv.org/pdf/2406.18495): a state-of-the-art open tool for assessing safety risks, jailbreaks, and refusals in LLMs. 
