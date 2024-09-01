@@ -16,15 +16,26 @@ nav_order: 1
 - Jun 30, 2022: Invited talk **[Stanford NLP Seminar](https://nlp.stanford.edu/seminar/details/nouhadziri.shtml)**
 - Dec 15, 2019: **DeepMind Montreal** about evaluating consistency in dialogue systems
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embed YouTube Video</title>
-</head>
-<body>
-    <h1>Check out this YouTube video!</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=I_JrRMqL8zk" frameborder="0" allowfullscreen></iframe>
-</body>
-</html>
+[//]: # (<!DOCTYPE html>)
+
+[//]: # (<html lang="en">)
+
+[//]: # (<head>)
+
+[//]: # (    <meta charset="UTF-8">)
+
+[//]: # (    <meta name="viewport" content="width=device-width, initial-scale=1.0">)
+
+[//]: # (    <title>Embed YouTube Video</title>)
+
+[//]: # (</head>)
+
+[//]: # (<body>)
+
+[//]: # (    <h1>Check out this YouTube video!</h1>)
+
+[//]: # (    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=I_JrRMqL8zk" frameborder="0" allowfullscreen></iframe>)
+
+[//]: # (</body>)
+
+[//]: # (</html>)
