@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:bellhop_bell: :strawberry: New blogpost about o1 models and LLMs reasoning "[Have o1 Models Cracked Human Reasoning?](https://substack.com/home/post/p-148782195)"
+:toolbox: :crossed_swords: New blogpost about AI safety "[Current Paradigms of LLMs Safety Alignment are superficial](https://substack.com/@nouhadziri/p-148663444)"
