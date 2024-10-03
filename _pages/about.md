@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I'm a research scientist at [Allen Institute for AI (AI2)](https://allenai.org/) working with [Yejin Choi](https://homes.cs.washington.edu/~yejin/).
-Currently, **I  co-lead the safety and post-training effort at AI2** to build [(OLMO)](https://allenai.org/olmo): a highly capable and truly open LLM to advance AI.
+Currently, **I  co-lead the safety and post-training effort at Ai2** to build [(OLMo)](https://allenai.org/olmo): a highly capable and truly open LLM to advance AI.
 
 Besides this, I work on understanding the **limits of Transformers** and their inner workings. Check out "[Faith and Fate](https://arxiv.org/pdf/2305.18654)" to learn about the limits of Transformers on reasoning tasks.
 I also work on studying **alignment in LLMs**; checkout "[Roadmap to Pluralistic Alignment](https://arxiv.org/pdf/2402.05070)", "[Finegrained RLHF](https://arxiv.org/pdf/2306.01693)", and "[RewardBench](https://arxiv.org/pdf/2403.13787)" the first evaluation tool for reward models..
