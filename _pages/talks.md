@@ -6,6 +6,10 @@ description:
 nav: true
 nav_order: 1
 ---
+- Dec 14, 2024: Invited talk "In-Context Learning in LLMs: Potential and Limits" at the [Language Gamification workshop](https://neurips.cc/virtual/2024/workshop/84722) at Neurips 2024
+- Dec 10, 2024: Invited panel "[Inference-time Algorithms for LLMs](https://neurips.cc/virtual/2024/tutorial/99522)" at the Meta-Generation Algorithms Tutorial at NeurIPS 2024
+- Dec 04, 2024: Invited panel "[Safety Benchmarks](https://www.youtube.com/watch?v=Qm4YLl0fj5I)" at [MLCommons](https://mlcommons.org/ailuminate/) 
+- Nov 20, 2024: Moderated a working group about "[Agentic Safety](https://blog.mozilla.org/en/mozilla/ai/columbia-convening-research-agenda/)" with [Sayash Kapoor](https://www.cs.princeton.edu/~sayashk/) in the Mozilla and Columbia convening. 
 - May 06, 2024: Invited talk "Faith abd Fate: Limits of Tranformers LLMs" at **University of Cambridge**.
 - Dec 05, 2023: Guest Lecture about "Limits of Generative AI Models and their Societal Implications" at the **Princeton University**.
 - Nov 28, 2023: Invited talk at [LLM evaluation](https://sites.google.com/view/fm-eval-workshop/home) workshop at **The Alan Turing Institute**
