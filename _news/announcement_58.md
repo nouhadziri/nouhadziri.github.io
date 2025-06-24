@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Honored to have been part of the Paris AI Action Summit :france: 
+Honored to have been part of the Paris AI Action Summit
