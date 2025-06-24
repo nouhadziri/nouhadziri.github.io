@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Guest lecture "Red-Teaming and Safeguarding Language Models: Current Practices, Challenges, and Future Directions" at Carnegie Mellon University (CMU)
+:open_book: Guest lecture "Red-Teaming and Safeguarding Language Models: Current Practices, Challenges, and Future Directions" at Carnegie Mellon University (CMU)
