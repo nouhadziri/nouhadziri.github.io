@@ -120,7 +120,9 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://www.youtube.com/watch?v=Qm4YLl0fj5I" target="_blank">
-<div class="talk-thumbnail placeholder">Safety Benchmarks</div>
+<div class="talk-thumbnail">
+    <img src="/assets/img/talks/mlcoms.png" alt="Safety Benchmarks">
+</div>
 <div class="talk-info">
 <div class="talk-title">Safety Benchmarks Panel</div>
 <div class="talk-event">MLCommons</div>
