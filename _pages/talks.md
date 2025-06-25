@@ -108,8 +108,10 @@ nav_order: 1
 </div>
 
 <div class="talk-card">
-<a href="https://neurips.cc/virtual/2024/tutorial/99522" target="_blank">
-<div class="talk-thumbnail placeholder">Meta-Generation Algorithms</div>
+<a href="https://slideslive.com/39031682/beyond-decoding-metageneration-algorithms-for-large-language-models?ref=search-presentations" target="_blank">
+<div class="talk-thumbnail">
+    <img src="/assets/img/talks/tuto-inference.png" alt="Meta-Generation Algorithms">
+</div>
 <div class="talk-info">
 <div class="talk-title">Inference-time Algorithms for LLMs</div>
 <div class="talk-event">NeurIPS Tutorial Panel</div>
