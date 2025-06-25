@@ -25,6 +25,18 @@ nav_order: 1
 .talk-thumbnail {
     width: 100%;
     height: 180px;
+    background: #f5f5f5;
+    position: relative;
+    overflow: hidden;
+}
+
+.talk-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.talk-thumbnail.placeholder {
     background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
     display: flex;
     align-items: center;
@@ -85,7 +97,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://neurips.cc/virtual/2024/workshop/84722" target="_blank">
-<div class="talk-thumbnail">In-Context Learning</div>
+<div class="talk-thumbnail placeholder">In-Context Learning</div>
 <div class="talk-info">
 <div class="talk-title">In-Context Learning in LLMs: Potential and Limits</div>
 <div class="talk-event">Language Gamification Workshop @ NeurIPS</div>
@@ -96,7 +108,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://neurips.cc/virtual/2024/tutorial/99522" target="_blank">
-<div class="talk-thumbnail">Meta-Generation Algorithms</div>
+<div class="talk-thumbnail placeholder">Meta-Generation Algorithms</div>
 <div class="talk-info">
 <div class="talk-title">Inference-time Algorithms for LLMs</div>
 <div class="talk-event">NeurIPS Tutorial Panel</div>
@@ -107,7 +119,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://www.youtube.com/watch?v=Qm4YLl0fj5I" target="_blank">
-<div class="talk-thumbnail">Safety Benchmarks</div>
+<div class="talk-thumbnail placeholder">Safety Benchmarks</div>
 <div class="talk-info">
 <div class="talk-title">Safety Benchmarks Panel</div>
 <div class="talk-event">MLCommons</div>
@@ -118,7 +130,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://blog.mozilla.org/en/mozilla/ai/columbia-convening-research-agenda/" target="_blank">
-<div class="talk-thumbnail">Agentic Safety</div>
+<div class="talk-thumbnail placeholder">Agentic Safety</div>
 <div class="talk-info">
 <div class="talk-title">Agentic Safety Working Group</div>
 <div class="talk-event">Mozilla & Columbia Convening</div>
@@ -129,7 +141,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail">Faith and Fate</div>
+<div class="talk-thumbnail placeholder">Faith and Fate</div>
 <div class="talk-info">
 <div class="talk-title">Faith and Fate: Limits of Transformers LLMs</div>
 <div class="talk-event">University of Cambridge</div>
@@ -140,7 +152,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail">Generative AI Limits</div>
+<div class="talk-thumbnail placeholder">Generative AI Limits</div>
 <div class="talk-info">
 <div class="talk-title">Limits of Generative AI Models and Societal Implications</div>
 <div class="talk-event">Princeton University</div>
@@ -151,7 +163,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://sites.google.com/view/fm-eval-workshop/home" target="_blank">
-<div class="talk-thumbnail">LLM Evaluation</div>
+<div class="talk-thumbnail placeholder">LLM Evaluation</div>
 <div class="talk-info">
 <div class="talk-title">LLM Evaluation Workshop</div>
 <div class="talk-event">The Alan Turing Institute</div>
@@ -162,7 +174,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://web.inf.ed.ac.uk/ilcc/news-events/seminars-2023/nuaha-dziri-seminar" target="_blank">
-<div class="talk-thumbnail">ILCC CDT/NLP</div>
+<div class="talk-thumbnail placeholder">ILCC CDT/NLP</div>
 <div class="talk-info">
 <div class="talk-title">ILCC CDT/NLP Seminar</div>
 <div class="talk-event">University of Edinburgh</div>
@@ -173,7 +185,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://sites.google.com/view/sail-ws-llms/program" target="_blank">
-<div class="talk-thumbnail">SAIL Workshop</div>
+<div class="talk-thumbnail placeholder">SAIL Workshop</div>
 <div class="talk-info">
 <div class="talk-title">Fundamental Limits on LLMs</div>
 <div class="talk-event">SAIL Workshop</div>
@@ -184,7 +196,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://calendar.pitt.edu/event/cs_seminar_faith_and_fate_limits_of_transformers_on_compositionality" target="_blank">
-<div class="talk-thumbnail">Compositionality</div>
+<div class="talk-thumbnail placeholder">Compositionality</div>
 <div class="talk-info">
 <div class="talk-title">Faith and Fate: Limits of Transformers on Compositionality</div>
 <div class="talk-event">University of Pittsburgh</div>
@@ -195,7 +207,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://flann.super.site/" target="_blank">
-<div class="talk-thumbnail">Formal Languages & Neural Networks</div>
+<div class="talk-thumbnail placeholder">Formal Languages & Neural Networks</div>
 <div class="talk-info">
 <div class="talk-title">Formal Languages and Neural Networks</div>
 <div class="talk-event">FLANN Seminar</div>
@@ -206,7 +218,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://nlp.stanford.edu/seminar/details/nouhadziri.shtml" target="_blank">
-<div class="talk-thumbnail">Stanford NLP</div>
+<div class="talk-thumbnail placeholder">Stanford NLP</div>
 <div class="talk-info">
 <div class="talk-title">Stanford NLP Seminar</div>
 <div class="talk-event">Stanford University</div>
@@ -217,7 +229,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail">Dialogue Systems</div>
+<div class="talk-thumbnail placeholder">Dialogue Systems</div>
 <div class="talk-info">
 <div class="talk-title">Evaluating Consistency in Dialogue Systems</div>
 <div class="talk-event">DeepMind Montreal</div>
