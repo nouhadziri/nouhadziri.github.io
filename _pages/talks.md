@@ -95,14 +95,14 @@ nav_order: 1
 <div class="talk-grid">
 
 <div class="talk-card">
-<a href="https://neurips.cc/virtual/2024/tutorial/99522" target="_blank">
+<a href="https://www.youtube.com/watch?v=SL8reoM8pGE" target="_blank">
 <div class="talk-thumbnail">
-    <img src="/assets/img/talks/podcast.png" alt="NeurIPS Tutorial Panel">
+    <img src="/assets/img/talks/podcast.png" alt="Podcast Women in AI">
 </div>
 <div class="talk-info">
-<div class="talk-title">Inference-time Algorithms for LLMs</div>
-<div class="talk-event">NeurIPS Tutorial Panel</div>
-<div class="talk-year">Dec 2024</div>
+<div class="talk-title">Podcast Ep 1: Limits of Transformers</div>
+<div class="talk-event">Podcast Women in AI</div>
+<div class="talk-year">March 2025</div>
 </div>
 </a>
 </div>
