@@ -134,7 +134,7 @@ nav_order: 1
 <div class="talk-card">
 <a href="https://blog.mozilla.org/en/mozilla/ai/columbia-convening-research-agenda/" target="_blank">
 <div class="talk-thumbnail">
-    <img src="/assets/img/talks/mozilla.png" alt="Agentic Safety">
+    <img src="/assets/img/talks/mozilla.jpg" alt="Agentic Safety">
 </div>
 <div class="talk-info">
 <div class="talk-title">Agentic Safety Working Group</div>
