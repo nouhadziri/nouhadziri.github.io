@@ -91,16 +91,17 @@ nav_order: 1
 }
 </style>
 
-## Featured Talks
 
 <div class="talk-grid">
 
 <div class="talk-card">
-<a href="https://neurips.cc/virtual/2024/workshop/84722" target="_blank">
-<div class="talk-thumbnail placeholder">In-Context Learning</div>
+<a href="https://neurips.cc/virtual/2024/tutorial/99522" target="_blank">
+<div class="talk-thumbnail">
+    <img src="/assets/img/talks/podcast.png" alt="NeurIPS Tutorial Panel">
+</div>
 <div class="talk-info">
-<div class="talk-title">In-Context Learning in LLMs: Potential and Limits</div>
-<div class="talk-event">Language Gamification Workshop @ NeurIPS</div>
+<div class="talk-title">Inference-time Algorithms for LLMs</div>
+<div class="talk-event">NeurIPS Tutorial Panel</div>
 <div class="talk-year">Dec 2024</div>
 </div>
 </a>
