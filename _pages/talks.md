@@ -100,7 +100,7 @@ nav_order: 1
     <img src="/assets/img/talks/podcast.png" alt="Podcast Women in AI">
 </div>
 <div class="talk-info">
-<div class="talk-title">Podcast Ep 1: Limits of Transformers</div>
+<div class="talk-title">Podcast: Limits of Transformers</div>
 <div class="talk-event">Podcast Women in AI</div>
 <div class="talk-year">March 2025</div>
 </div>
