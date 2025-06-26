@@ -113,7 +113,7 @@ nav_order: 1
     <img src="/assets/img/talks/tuto-inference.png" alt="Meta-Generation Algorithms">
 </div>
 <div class="talk-info">
-<div class="talk-title">Inference-time Algorithms for LLMs</div>
+<div class="talk-title">Inference-time Algorithms for LLMs Panel</div>
 <div class="talk-event">NeurIPS Tutorial Panel</div>
 <div class="talk-year">Dec 2024</div>
 </div>
