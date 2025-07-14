@@ -95,6 +95,19 @@ nav_order: 1
 <div class="talk-grid">
 
 <div class="talk-card">
+<a href="https://istfm.github.io/speakerlist.html" target="_blank">
+<div class="talk-thumbnail">
+    <img src="/assets/img/talks/podcast.png" alt="Trustworthy Foundation Models Panel">
+</div>
+<div class="talk-info">
+<div class="talk-title">Trustworthy Foundation Models Panel</div>
+<div class="talk-event">Trustworthy Foundation Models Panel</div>
+<div class="talk-year">May 2025</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
 <a href="https://www.youtube.com/watch?v=SL8reoM8pGE" target="_blank">
 <div class="talk-thumbnail">
     <img src="/assets/img/talks/podcast.png" alt="Podcast Women in AI">
@@ -106,6 +119,8 @@ nav_order: 1
 </div>
 </a>
 </div>
+
+
 
 <div class="talk-card">
 <a href="https://slideslive.com/39031682/beyond-decoding-metageneration-algorithms-for-large-language-models?ref=search-presentations" target="_blank">
