@@ -79,9 +79,15 @@ nav_order: 1
 
 .talk-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     margin-top: 30px;
+}
+
+@media (max-width: 1024px) {
+    .talk-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 768px) {
