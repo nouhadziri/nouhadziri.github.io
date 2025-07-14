@@ -97,6 +97,20 @@ nav_order: 1
 <div class="talk-card">
 <a href="https://istfm.github.io/speakerlist.html" target="_blank">
 <div class="talk-thumbnail">
+    <img src="/assets/img/talks/mbuzai-talk.jpeg" alt="Trustworthy Foundation Models Talk">
+</div>
+<div class="talk-info">
+<div class="talk-title">Does Scaling Guarantee Trustworthy LLMs?</div>
+<div class="talk-event">MBUZAI</div>
+<div class="talk-year">May 2025</div>
+</div>
+</a>
+</div>
+
+
+<div class="talk-card">
+<a href="https://istfm.github.io/speakerlist.html" target="_blank">
+<div class="talk-thumbnail">
     <img src="/assets/img/talks/mbuzai-panel.jpeg" alt="Trustworthy Foundation Models Panel">
 </div>
 <div class="talk-info">
