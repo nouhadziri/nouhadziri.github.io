@@ -150,11 +150,28 @@ nav_order: 1
 </div>
 <div class="talk-info">
 <div class="talk-title">Inference-time Algorithms for LLMs Panel</div>
-<div class="talk-event">NeurIPS Tutorial Panel</div>
+<div class="talk-event">NeurIPS Tutorial Panel w. Jacob Foerster, Noam Brown, Beidi Chen, and Rishabh Agarwal</div>
 <div class="talk-year">Dec 2024</div>
 </div>
 </a>
 </div>
+
+
+<div class="talk-card">
+<a href="https://slideslive.com/39030830/panel-discussion?ref=search-presentations" target="_blank">
+<div class="talk-thumbnail">
+    <img src="/assets/img/talks/panel-gamification.png" alt="Gamification">
+</div>
+<div class="talk-info">
+<div class="talk-title">Language Gamification  Panel</div>
+<div class="talk-event">NeurIPS Panel w. Aaron Courville, Alane Suhr, Tom Schaul, Marc Lanctot, Tom Griffiths, and Sam Devlin.</div>
+<div class="talk-year">Dec 2024</div>
+</div>
+</a>
+</div>
+
+
+
 
 <div class="talk-card">
 <a href="https://www.youtube.com/watch?v=Qm4YLl0fj5I" target="_blank">
