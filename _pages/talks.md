@@ -149,7 +149,7 @@ nav_order: 1
     <img src="/assets/img/talks/tuto-inference.png" alt="Meta-Generation Algorithms">
 </div>
 <div class="talk-info">
-<div class="talk-title">Inference-time Algorithms for LLMs Panel</div>
+<div class="talk-title">Inference-time Algorithms for LLMs Panel (NeurIPS 2024)</div>
 <div class="talk-event">NeurIPS Tutorial Panel w. Jacob Foerster, Noam Brown, Beidi Chen, and Rishabh Agarwal</div>
 <div class="talk-year">Dec 2024</div>
 </div>
@@ -163,7 +163,7 @@ nav_order: 1
     <img src="/assets/img/talks/panel-gamification.png" alt="Gamification">
 </div>
 <div class="talk-info">
-<div class="talk-title">Language Gamification  Panel</div>
+<div class="talk-title">Language Gamification Panel (NeurIPS 2024)</div>
 <div class="talk-event">NeurIPS Panel w. Aaron Courville, Alane Suhr, Tom Schaul, Marc Lanctot, Tom Griffiths, and Sam Devlin.</div>
 <div class="talk-year">Dec 2024</div>
 </div>
