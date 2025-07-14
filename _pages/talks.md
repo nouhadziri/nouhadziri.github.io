@@ -171,7 +171,18 @@ nav_order: 1
 </div>
 
 
-
+<div class="talk-card">
+<a href="https://blog.mozilla.org/en/mozilla/ai/columbia-convening-research-agenda/" target="_blank">
+<div class="talk-thumbnail">
+    <img src="/assets/img/talks/mozilla.jpg" alt="Agentic Safety">
+</div>
+<div class="talk-info">
+<div class="talk-title">Agentic Safety Working Group</div>
+<div class="talk-event">Mozilla & Columbia Convening</div>
+<div class="talk-year">Nov 2024</div>
+</div>
+</a>
+</div>
 
 <div class="talk-card">
 <a href="https://www.youtube.com/watch?v=Qm4YLl0fj5I" target="_blank">
@@ -186,18 +197,7 @@ nav_order: 1
 </a>
 </div>
 
-<div class="talk-card">
-<a href="https://blog.mozilla.org/en/mozilla/ai/columbia-convening-research-agenda/" target="_blank">
-<div class="talk-thumbnail">
-    <img src="/assets/img/talks/mozilla.jpg" alt="Agentic Safety">
-</div>
-<div class="talk-info">
-<div class="talk-title">Agentic Safety Working Group</div>
-<div class="talk-event">Mozilla & Columbia Convening</div>
-<div class="talk-year">Nov 2024</div>
-</div>
-</a>
-</div>
+
 
 
 <div class="talk-card">
