@@ -24,7 +24,7 @@ nav_order: 1
 
 .talk-thumbnail {
     width: 100%;
-    height: 220px;
+    height: 180px;
     background: #f5f5f5;
     position: relative;
     overflow: hidden;
@@ -49,7 +49,7 @@ nav_order: 1
 }
 
 .talk-info {
-    padding: 20px 24px 24px;
+    padding: 16px 20px 20px;
 }
 
 .talk-title {
@@ -80,7 +80,7 @@ nav_order: 1
 .talk-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
+    gap: 16px;
     margin-top: 30px;
 }
 
@@ -149,7 +149,7 @@ nav_order: 1
     <img src="/assets/img/talks/tuto-inference.png" alt="Meta-Generation Algorithms">
 </div>
 <div class="talk-info">
-<div class="talk-title">Inference-time Algorithms for LLMs Panel (NeurIPS 2024)</div>
+<div class="talk-title">Inference-time Algorithms for LLMs Panel</div>
 <div class="talk-event">NeurIPS Tutorial Panel w. Jacob Foerster, Noam Brown, Beidi Chen, and Rishabh Agarwal</div>
 <div class="talk-year">Dec 2024</div>
 </div>
@@ -163,7 +163,7 @@ nav_order: 1
     <img src="/assets/img/talks/panel-gamification.png" alt="Gamification">
 </div>
 <div class="talk-info">
-<div class="talk-title">Language Gamification Panel (NeurIPS 2024)</div>
+<div class="talk-title">Language Gamification  Panel</div>
 <div class="talk-event">NeurIPS Panel w. Aaron Courville, Alane Suhr, Tom Schaul, Marc Lanctot, Tom Griffiths, and Sam Devlin.</div>
 <div class="talk-year">Dec 2024</div>
 </div>
@@ -171,18 +171,7 @@ nav_order: 1
 </div>
 
 
-<div class="talk-card">
-<a href="https://blog.mozilla.org/en/mozilla/ai/columbia-convening-research-agenda/" target="_blank">
-<div class="talk-thumbnail">
-    <img src="/assets/img/talks/mozilla.jpg" alt="Agentic Safety">
-</div>
-<div class="talk-info">
-<div class="talk-title">Agentic Safety Working Group</div>
-<div class="talk-event">Mozilla & Columbia Convening</div>
-<div class="talk-year">Nov 2024</div>
-</div>
-</a>
-</div>
+
 
 <div class="talk-card">
 <a href="https://www.youtube.com/watch?v=Qm4YLl0fj5I" target="_blank">
@@ -197,7 +186,18 @@ nav_order: 1
 </a>
 </div>
 
-
+<div class="talk-card">
+<a href="https://blog.mozilla.org/en/mozilla/ai/columbia-convening-research-agenda/" target="_blank">
+<div class="talk-thumbnail">
+    <img src="/assets/img/talks/mozilla.jpg" alt="Agentic Safety">
+</div>
+<div class="talk-info">
+<div class="talk-title">Agentic Safety Working Group</div>
+<div class="talk-event">Mozilla & Columbia Convening</div>
+<div class="talk-year">Nov 2024</div>
+</div>
+</a>
+</div>
 
 
 <div class="talk-card">
