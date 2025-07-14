@@ -101,7 +101,7 @@ nav_order: 1
 </div>
 <div class="talk-info">
 <div class="talk-title">Trustworthy Foundation Models Panel</div>
-<div class="talk-event">Trustworthy Foundation Models Panel</div>
+<div class="talk-event">MBUZAI</div>
 <div class="talk-year">May 2025</div>
 </div>
 </a>
