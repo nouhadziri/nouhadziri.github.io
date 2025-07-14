@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /talks/
-title: Invited Talks
+title: Invited Talks / Panels
 description:  
 nav: true
 nav_order: 1
@@ -24,7 +24,7 @@ nav_order: 1
 
 .talk-thumbnail {
     width: 100%;
-    height: 180px;
+    height: 220px;
     background: #f5f5f5;
     position: relative;
     overflow: hidden;
@@ -49,7 +49,7 @@ nav_order: 1
 }
 
 .talk-info {
-    padding: 16px 20px 20px;
+    padding: 20px 24px 24px;
 }
 
 .talk-title {
@@ -80,7 +80,7 @@ nav_order: 1
 .talk-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    gap: 32px;
     margin-top: 30px;
 }
 
