@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /talks/
-title: Invited Talks / Panels
+title: Invited Talks/Panels
 description:  
 nav: true
 nav_order: 1
@@ -122,7 +122,7 @@ nav_order: 1
 </div>
 <div class="talk-info">
 <div class="talk-title">Trustworthy Foundation Models Panel</div>
-<div class="talk-event">MBUZAI</div>
+<div class="talk-event">MBUZAI Panel with Tomas Mikolov, Hakim Hacid, and Tongliang Liu</div>
 <div class="talk-year">May 2025</div>
 </div>
 </a>
@@ -180,7 +180,7 @@ nav_order: 1
 </div>
 <div class="talk-info">
 <div class="talk-title">Safety Benchmarks Panel</div>
-<div class="talk-event">MLCommons</div>
+<div class="talk-event">MLCommons Panel w. Ion Stoica, April Chen, and Wan Sie Lee. </div>
 <div class="talk-year">Dec 2024</div>
 </div>
 </a>
