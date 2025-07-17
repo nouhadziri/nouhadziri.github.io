@@ -129,6 +129,20 @@ nav_order: 1
 </div>
 
 <div class="talk-card">
+<a href="https://www.wiml.org/events/wiml-social-%40-iclr-2025" target="_blank">
+<div class="talk-thumbnail">
+    <img src="/assets/img/talks/wiml.png" alt="Women in ML">
+</div>
+<div class="talk-info">
+<div class="talk-title">Panel: Women in ML (ICLR 2025)</div>
+<div class="talk-event">Women in ML</div>
+<div class="talk-year">March 2025</div>
+</div>
+</a>
+</div>
+
+
+<div class="talk-card">
 <a href="https://www.youtube.com/watch?v=SL8reoM8pGE" target="_blank">
 <div class="talk-thumbnail">
     <img src="/assets/img/talks/podcast.png" alt="Podcast Women in AI">
