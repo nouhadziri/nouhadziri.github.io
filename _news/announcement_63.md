@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- :tada: :tada: Our paper [Rel-A.I](https://arxiv.org/pdf/2407.07950) received the Best Paper Runner Up award at NAACL 2025
+ :tada: Our paper [Rel-A.I](https://arxiv.org/pdf/2407.07950) received the Best Paper Runner Up award at NAACL 2025
