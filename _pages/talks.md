@@ -165,7 +165,7 @@ nav_order: 1
 <div class="talk-info">
 <div class="talk-title">Panel: Women in ML (ICLR 2025)</div>
 <div class="talk-event">Women in ML</div>
-<div class="talk-year">March 2025</div>
+<div class="talk-year">April 2025</div>
 </div>
 </a>
 </div>
