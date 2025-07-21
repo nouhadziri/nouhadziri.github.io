@@ -101,6 +101,20 @@ nav_order: 1
 <div class="talk-grid">
 
 <div class="talk-card">
+<a href="https://www.icml-computeruseagents.com/" target="_blank">
+<div class="talk-thumbnail">
+    <img src="/assets/img/talks/agent-icml.png" alt="Computer Use Agents Workshop(ICML 2025)">
+</div>
+<div class="talk-info">
+<div class="talk-title">Computer Use Agents Workshop</div>
+<div class="talk-event">ICML 2025</div>
+<div class="talk-year">July 2025</div>
+</div>
+</a>
+</div>
+
+
+<div class="talk-card">
 <a href="https://istfm.github.io/speakerlist.html" target="_blank">
 <div class="talk-thumbnail">
     <img src="/assets/img/talks/mbuzai-talk.png" alt="Trustworthy Foundation Models Talk">
@@ -117,7 +131,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://istfm.github.io/speakerlist.html" target="_blank">
-<div class="talk-thumbnail">
+<div class="talk-thumbnail"> 
     <img src="/assets/img/talks/mbuzai-panel.png" alt="Trustworthy Foundation Models Panel">
 </div>
 <div class="talk-info">
