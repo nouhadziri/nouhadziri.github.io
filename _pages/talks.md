@@ -103,7 +103,7 @@ nav_order: 1
 <div class="talk-card">
 <a href="https://www.icml-computeruseagents.com/" target="_blank">
 <div class="talk-thumbnail">
-    <img src="/assets/img/talks/agent-icml.png" alt="Computer Use Agents Workshop(ICML 2025)">
+    <img src="/assets/img/talks/agent-icml.png" alt="Computer Use Agents Workshop (ICML 2025)">
 </div>
 <div class="talk-info">
 <div class="talk-title">Computer Use Agents Workshop</div>
