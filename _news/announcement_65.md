@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited talk at the [Cross Future AI & Technology Summit](https://www.cross-future.com/) at Vancouver :canada:
+Invited talk & panel at the [Cross Future AI & Technology Summit](https://www.cross-future.com/) at Vancouver :canada:

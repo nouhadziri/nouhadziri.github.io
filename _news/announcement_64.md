@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- :tada: 1 poster at ICML 2025 :canada:
+ :tada: 1 poster [SafetyAnalyst: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior](https://arxiv.org/pdf/2410.16665)at ICML 2025 :canada:
