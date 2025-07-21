@@ -115,6 +115,21 @@ nav_order: 1
 
 
 <div class="talk-card">
+<a href="https://icml2025digbugs.github.io/" target="_blank">
+<div class="talk-thumbnail">
+    <img src="/assets/img/talks/data-icml" alt="Data in Generative Models Workshop (ICML 2025)">
+</div>
+<div class="talk-info">
+<div class="talk-title">Data in Generative Models  Workshop</div>
+<div class="talk-event">ICML 2025</div>
+<div class="talk-year">July 2025</div>
+</div>
+</a>
+</div>
+
+
+
+<div class="talk-card">
 <a href="https://istfm.github.io/speakerlist.html" target="_blank">
 <div class="talk-thumbnail">
     <img src="/assets/img/talks/mbuzai-talk.png" alt="Trustworthy Foundation Models Talk">
