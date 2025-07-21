@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited talk and panel at the International Symposium on Trustworthy Foundation Models (MBZUAI) 
+Invited talk and panel at the [International Symposium on Trustworthy Foundation Models (MBZUAI)](https://istfm.github.io/index.html)
