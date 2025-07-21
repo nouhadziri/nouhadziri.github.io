@@ -103,10 +103,10 @@ nav_order: 1
 <div class="talk-card">
 <a href="https://www.icml-computeruseagents.com/" target="_blank">
 <div class="talk-thumbnail">
-    <img src="/assets/img/talks/agent-icml.png" alt="Computer Use Agents Workshop (ICML 2025)">
+    <img src="/assets/img/talks/agent-icml.png" alt="Computer Use Agents Workshop">
 </div>
 <div class="talk-info">
-<div class="talk-title">Computer Use Agents Workshop</div>
+<div class="talk-title">Computer Use Agents Workshop (ICML 2025)</div>
 <div class="talk-event">ICML 2025</div>
 <div class="talk-year">July 2025</div>
 </div>
@@ -117,10 +117,10 @@ nav_order: 1
 <div class="talk-card">
 <a href="https://icml2025digbugs.github.io/" target="_blank">
 <div class="talk-thumbnail">
-    <img src="/assets/img/talks/data-icml" alt="Data in Generative Models Workshop (ICML 2025)">
+    <img src="/assets/img/talks/data-icml.png" alt="Data in Generative Models Workshop">
 </div>
 <div class="talk-info">
-<div class="talk-title">Data in Generative Models  Workshop</div>
+<div class="talk-title">Data in Generative Models  Workshop (ICML 2025)</div>
 <div class="talk-event">ICML 2025</div>
 <div class="talk-year">July 2025</div>
 </div>
