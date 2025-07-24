@@ -102,7 +102,7 @@ nav_order: 1
 <div class="talk-grid">
 
 <div class="talk-card">
-<a href="" target="_blank">
+<a href="https://arxiv.org/pdf/2506.18880" target="_blank">
 <div class="talk-thumbnail">
     <img src="/assets/img/talks/apple-talk.png" alt="Apple">
 </div>
