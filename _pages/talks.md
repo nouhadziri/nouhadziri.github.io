@@ -103,6 +103,19 @@ nav_order: 1
 <div class="talk-card">
 <a href="https://www.cross-future.com/" target="_blank">
 <div class="talk-thumbnail">
+    <img src="/assets/img/talks/panel-cross.png" alt="Cross Hub summit">
+</div>
+<div class="talk-info">
+<div class="talk-title">Panel on AI Reasoning</div>
+<div class="talk-event">Cross Future AI & Technology Summit</div>
+<div class="talk-year">July 2025</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="https://www.cross-future.com/" target="_blank">
+<div class="talk-thumbnail">
     <img src="/assets/img/talks/hub.png" alt="Cross Hub summit">
 </div>
 <div class="talk-info">
@@ -112,6 +125,8 @@ nav_order: 1
 </div>
 </a>
 </div>
+
+
 
 <div class="talk-card">
 <a href="https://www.cross-future.com/" target="_blank">
