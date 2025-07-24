@@ -102,7 +102,7 @@ nav_order: 1
 <div class="talk-grid">
 
 <div class="talk-card">
-<a href="https://www.cross-future.com/" target="_blank">
+<a href="" target="_blank">
 <div class="talk-thumbnail">
     <img src="/assets/img/talks/apple-talk.png" alt="Apple">
 </div>
