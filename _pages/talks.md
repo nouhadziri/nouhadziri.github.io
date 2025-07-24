@@ -104,10 +104,10 @@ nav_order: 1
 <div class="talk-card">
 <a href="https://www.cross-future.com/" target="_blank">
 <div class="talk-thumbnail">
-    <img src="/assets/img/talks/apple.png" alt="Apple">
+    <img src="/assets/img/talks/apple-talk.png" alt="Apple">
 </div>
 <div class="talk-info">
-<div class="talk-title">OMEGA: Can LLMs Think Outside the Box</div>
+<div class="talk-title">OMEGA: Can LLMs Think Outside the Box in Math?</div>
 <div class="talk-event">Apple Research Reasoning Workshop</div>
 <div class="talk-year">July 2025</div>
 </div>
