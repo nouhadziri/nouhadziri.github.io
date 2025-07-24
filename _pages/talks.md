@@ -108,7 +108,7 @@ nav_order: 1
 </div>
 <div class="talk-info">
 <div class="talk-title">OMEGA: Can LLMs Think Outside the Box in Math?</div>
-<div class="talk-event">Apple Research Reasoning Workshop</div>
+<div class="talk-event">Apple Reasoning and Planning Workshop</div>
 <div class="talk-year">July 2025</div>
 </div>
 </a>
