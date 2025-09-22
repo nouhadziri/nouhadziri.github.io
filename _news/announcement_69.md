@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- Invited lecture about LLM reasoning at the [Armenian LLM Summer School 2025](https://armllm.github.io/2025/#speakers) :armenia: 
+ Invited lecture about LLM reasoning at the [Armenian LLM Summer School 2025](https://www.youtube.com/watch?v=uCm-Osfcogk&list=PL6uSmoBKOSuuZsTPc4EHx7HBt3zCvUnY4&index=3) :armenia: 
