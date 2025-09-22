@@ -101,6 +101,21 @@ nav_order: 1
 
 <div class="talk-grid">
 
+
+<div class="talk-card">
+<a href="https://www.youtube.com/watch?v=uCm-Osfcogk&list=PL6uSmoBKOSuuZsTPc4EHx7HBt3zCvUnY4&index=3" target="_blank">
+<div class="talk-thumbnail">
+    <img src="/assets/img/talks/armenia.jpeg" alt="Apple">
+</div>
+<div class="talk-info">
+<div class="talk-title">Inference Time Compute / Reasoning</div>
+<div class="talk-event">The Armenian LLM Summer School 2025 </div>
+<div class="talk-year">July 2025</div>
+</div>
+</a>
+</div>
+
+
 <div class="talk-card">
 <a href="https://arxiv.org/pdf/2506.18880" target="_blank">
 <div class="talk-thumbnail">
