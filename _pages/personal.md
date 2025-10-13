@@ -2,7 +2,7 @@
 layout: page
 permalink: /personal
 title: Personal
-nav: true
+nav: false
 nav_order: 5
 description: Welcome to my personal univers, where I share my interests and experiences, from AI to tennis and beyond.
 ---
