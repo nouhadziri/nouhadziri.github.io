@@ -160,7 +160,7 @@ nav_order: 1
 
 
 <div class="talk-card">
-<a href="https://www.icml-computeruseagents.com/" target="_blank">
+<a href="https://icml.cc/virtual/2025/50078" target="_blank">
 <div class="talk-thumbnail">
     <img src="/assets/img/talks/agent-icml.png" alt="Computer Use Agents Workshop">
 </div>
@@ -174,7 +174,7 @@ nav_order: 1
 
 
 <div class="talk-card">
-<a href="https://icml2025digbugs.github.io/" target="_blank">
+<a href="https://icml.cc/virtual/2025/51350" target="_blank">
 <div class="talk-thumbnail">
     <img src="/assets/img/talks/data-icml.png" alt="Data in Generative Models Workshop">
 </div>
