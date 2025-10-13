@@ -174,7 +174,7 @@ nav_order: 1
 
 
 <div class="talk-card">
-<a href="https://icml.cc/virtual/2025/51350" target="_blank">
+<a href="https://icml2025digbugs.github.io/" target="_blank">
 <div class="talk-thumbnail">
     <img src="/assets/img/talks/data-icml.png" alt="Data in Generative Models Workshop">
 </div>
