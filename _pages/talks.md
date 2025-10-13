@@ -369,7 +369,7 @@ nav_order: 1
 </div>
 
 <div class="talk-card">
-<a href="https://flann.super.site/" target="_blank">
+<a href="https://www.youtube.com/watch?v=I_JrRMqL8zk" target="_blank">
 <div class="talk-thumbnail placeholder">Formal Languages & Neural Networks</div>
 <div class="talk-info">
 <div class="talk-title">Formal Languages and Neural Networks</div>
