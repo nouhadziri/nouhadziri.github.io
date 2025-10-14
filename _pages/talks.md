@@ -272,6 +272,19 @@ nav_order: 1
 </a>
 </div>
 
+<div class="talk-card">
+<a href="https://slideslive.com/39030819/incontext-learning-in-llms-potential-and-limits?ref=speaker-78971" target="_blank">
+<div class="talk-thumbnail">
+    <img src="/assets/img/talks/neurips_in-context.png" alt="Gamification">
+</div>
+<div class="talk-info">
+<div class="talk-title">In-Context Learning in LLMs: Potential and Limits</div>
+<div class="talk-event">Language Gamification Workshop (NeurIPS 2024)</div>
+<div class="talk-year">Dec 2024</div>
+</div>
+</a>
+</div>
+
 
 
 
