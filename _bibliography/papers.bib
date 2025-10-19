@@ -2,41 +2,182 @@
 ---
 @string{aps = {American Physical Society,}}
 
+@inproceedings{delta,
+title={RL Grokking Recipe: How Does RL Unlock and Transfer New Algorithms in LLMs?},
+author={Yiyou Sun and Shawn Hu and Georgia Zhou and Ken Zheng and Hannaneh Hajishirzi and Nouha Dziri* and Dawn Song*},
+booktitle={Arxiv},
+month=September,
+year={2025},
+arxiv={2509.21016},
+url={https://arxiv.org/abs/2509.21016},
+preview={delta.png},
+code={https://github.com/sunblaze-ucb/rl-grok-recipe},
+abstract={It remains an open question whether LLMs can acquire or generalize genuinely new reasoning strategies, beyond the sharpened skills encoded in their parameters during pre-training or post-training. To attempt to answer this debate, we introduce DELTA-Code -- Distributional Evaluation of Learnability and Transferrability in Algorithmic Coding -- a controlled benchmark of synthetic coding problem families designed to probe two fundamental aspects: learnability -- can LLMs, through reinforcement learning (RL), solve problem families where pretrained models exhibit failure with large enough attempts (pass@K=0)? -- and transferrability -- if learnability happens, can such skills transfer systematically to out-of-distribution (OOD) test sets? Unlike prior public coding datasets, DELTA isolates reasoning skills through templated problem generators and introduces fully OOD problem families that demand novel strategies rather than tool invocation or memorized patterns. Our experiments reveal a striking grokking phase transition: after an extended period with near-zero reward, RL-trained models abruptly climb to near-perfect accuracy. To enable learnability on previously unsolvable problem families, we explore key training ingredients such as staged warm-up with dense rewards, experience replay, curriculum training, and verification-in-the-loop. Beyond learnability, we use DELTA to evaluate transferability or generalization along exploratory, compositional, and transformative axes, as well as cross-family transfer. Results show solid gains within families and for recomposed skills, but persistent weaknesses in transformative cases. DELTA thus offers a clean testbed for probing the limits of RL-driven reasoning and for understanding how models can move beyond existing priors to acquire new algorithmic skills.}
+}
+
+@inproceedings{openagentsafety,
+title={OpenAgentSafety: A Comprehensive Framework for Evaluating Real-World AI Agent Safety},
+author={Sanidhya Vijayvargiya and Aditya Bharat Soni and Xuhui Zhou and Zora Zhiruo Wang and Nouha Dziri and Graham Neubig and Maarten Sap},
+booktitle={Arxiv},
+month={July},
+year={2025},
+arxiv={2507.06134},
+url={https://arxiv.org/abs/2507.06134},
+preview={openagentsafety.png},
+code={https://github.com/sani903/OpenAgentSafety},
+abstract={Recent advances in AI agents capable of solving complex, everyday tasks, from scheduling to customer service, have enabled deployment in real-world settings, but their possibilities for unsafe behavior demands rigorous evaluation. While prior benchmarks have attempted to assess agent safety, most fall short by relying on simulated environments, narrow task domains, or unrealistic tool abstractions. We introduce OpenAgentSafety, a comprehensive and modular framework for evaluating agent behavior across eight critical risk categories. Unlike prior work, our framework evaluates agents that interact with real tools, including web browsers, code execution environments, file systems, bash shells, and messaging platforms; and supports over 350 multi-turn, multi-user tasks spanning both benign and adversarial user intents. OpenAgentSafety is designed for extensibility, allowing researchers to add tools, tasks, websites, and adversarial strategies with minimal effort. It combines rule-based analysis with LLM-as-judge assessments to detect both overt and subtle unsafe behaviors. Empirical analysis of five prominent LLMs in agentic scenarios reveals unsafe behavior in 51.2% of safety-vulnerable tasks with Claude-Sonnet-3.7, to 72.7% with o3-mini, highlighting critical safety vulnerabilities and the need for stronger safeguards before real-world deployment.}
+}
+
+@inproceedings{singaporeAISafety,
+title={The Singapore Consensus on Global AI Safety Research Priorities},
+author={Yoshua Bengio and Tegan Maharaj and Luke Ong and Stuart Russell and Dawn Song and ... and Jeff Clune and Juntao Dai and Agnes Delaborde and Nouha Dziri and Francisco Eiras and Joshua Engels and Jinyu Fan and Adam Gleave and Noah Goodman and ... and Wei Xu and Rongwu Xu and Yi Zeng and HongJiang Zhang and Djordje Žikelić},
+booktitle={Arxiv},
+month={June},
+year={2025},
+arxiv={2506.20702},
+url={https://arxiv.org/abs/2506.20702},
+preview={singapore.png},
+abstract={Rapidly improving AI capabilities and autonomy hold significant promise of transformation, but are also driving vigorous debate on how to ensure that AI is safe, i.e., trustworthy, reliable, and secure. Building a trusted ecosystem is therefore essential -- it helps people embrace AI with confidence and gives maximal space for innovation while avoiding backlash.
+The "2025 Singapore Conference on AI (SCAI): International Scientific Exchange on AI Safety" aimed to support research in this space by bringing together AI scientists across geographies to identify and synthesise research priorities in AI safety. This resulting report builds on the International AI Safety Report chaired by Yoshua Bengio and backed by 33 governments. By adopting a defence-in-depth model, this report organises AI safety research domains into three types: challenges with creating trustworthy AI systems (Development), challenges with evaluating their risks (Assessment), and challenges with monitoring and intervening after deployment (Control).}
+}
+
+@inproceedings{omega,
+title={OMEGA: Can LLMs Reason Outside the Box in Math? Evaluating Exploratory, Compositional, and Transformative Generalization},
+author={Yiyou Sun and Shawn Hu and Georgia Zhou and Ken Zheng and Hannaneh Hajishirzi and Nouha Dziri* and Dawn Song*},
+booktitle={NeurIPS},
+year={2025},
+month={},
+arxiv={2506.18880},
+url={https://arxiv.org/abs/2506.18880},
+preview={omega.png},
+code={https://github.com/sunblaze-ucb/math_ood},
+abstract={Recent large-scale language models (LLMs) with long Chain-of-Thought reasoning-such as DeepSeek-R1-have achieved impressive results on Olympiad-level mathematics benchmarks. However, they often rely on a narrow set of strategies and struggle with problems that require a novel way of thinking. To systematically investigate these limitations, we introduce OMEGA-Out-of-distribution Math Problems Evaluation with 3 Generalization Axes-a controlled yet diverse benchmark designed to evaluate three axes of out-of-distribution generalization, inspired by Boden's typology of creativity: (1) Exploratory-applying known problem solving skills to more complex instances within the same problem domain; (2) Compositional-combining distinct reasoning skills, previously learned in isolation, to solve novel problems that require integrating these skills in new and coherent ways; and (3) Transformative-adopting novel, often unconventional strategies by moving beyond familiar approaches to solve problems more effectively. OMEGA consists of programmatically generated training-test pairs derived from templated problem generators across geometry, number theory, algebra, combinatorics, logic, and puzzles, with solutions verified using symbolic, numerical, or graphical methods. We evaluate frontier (or top-tier) LLMs and observe sharp performance degradation as problem complexity increases. Moreover, we fine-tune the Qwen-series models across all generalization settings and observe notable improvements in exploratory generalization, while compositional generalization remains limited and transformative reasoning shows little to no improvement. By isolating and quantifying these fine-grained failures, OMEGA lays the groundwork for advancing LLMs toward genuine mathematical creativity beyond mechanical proficiency.}
+}
+
+@inproceedings{reasoningLadder,
+title={Climbing the Ladder of Reasoning: What LLMs Can-and Still Can't-Solve after SFT?},
+author={Yiyou Sun and Georgia Zhou and Hao Wang and Dacheng Li and Nouha Dziri and Dawn Song},
+booktitle={Arxiv},
+year={2025},
+month={April},
+arxiv={2504.11741},
+url={https://arxiv.org/abs/2504.11741},
+preview={reasoningladder.png},
+code={https://github.com/sunblaze-ucb/reasoning_ladder},
+abstract={Recent supervised fine-tuning (SFT) approaches have significantly improved language models' performance on mathematical reasoning tasks, even when models are trained at a small scale. However, the specific capabilities enhanced through such fine-tuning remain poorly understood. In this paper, we conduct a detailed analysis of model performance on the AIME24 dataset to understand how reasoning capabilities evolve. We discover a ladder-like structure in problem difficulty, categorize questions into four tiers (Easy, Medium, Hard, and Extremely Hard (Exh)), and identify the specific requirements for advancing between tiers. We find that progression from Easy to Medium tier requires adopting an R1 reasoning style with minimal SFT (500-1K instances), while Hard-level questions suffer from frequent model's errors at each step of the reasoning chain, with accuracy plateauing at around 65% despite logarithmic scaling. Exh-level questions present a fundamentally different challenge; they require unconventional problem-solving skills that current models uniformly struggle with. Additional findings reveal that carefully curated small-scale datasets offer limited advantage-scaling dataset size proves far more effective. Our analysis provides a clearer roadmap for advancing language model capabilities in mathematical reasoning.}
+}
+
+@inproceedings{trustGen,
+title={On the Trustworthiness of Generative Foundation Models: Guideline, Assessment, and Perspective},
+author={Yue Huang and Chujie Gao and Siyuan Wu and Haoran Wang and Xiangqi Wang and Yujun Zhou and Yanbo Wang and Jiayi Ye and Jiawen Shi and Qihui Zhang and Yuan Li and Han Bao and Zhaoyi Liu and Tianrui Guan and Dongping Chen and Ruoxi Chen and Kehan Guo and Andy Zou and Bryan Hooi Kuen-Yew and Caiming Xiong and Elias Stengel-Eskin and Hongyang Zhang and Hongzhi Yin and Huan Zhang and Huaxiu Yao and Jaehong Yoon and Jieyu Zhang and Kai Shu and Kaijie Zhu and Ranjay Krishna and Swabha Swayamdipta and Taiwei Shi and Weijia Shi and Xiang Li and Yiwei Li and Yuexing Hao and Zhihao Jia and Zhize Li and Xiuying Chen and Zhengzhong Tu and Xiyang Hu and Tianyi Zhou and Jieyu Zhao and Lichao Sun and Furong Huang and Or Cohen Sasson and Prasanna Sattigeri and Anka Reuel and Max Lamparth and Yue Zhao and Nouha Dziri and Yu Su and Huan Sun and Heng Ji and Chaowei Xiao and Mohit Bansal and Nitesh V. Chawla and Jian Pei and Jianfeng Gao and Michael Backes and Philip S. Yu and Neil Zhenqiang Gong and Pin-Yu Chen and Bo Li and Xiangliang Zhang},
+booktitle={Arxiv},
+year={2025},
+month={February},
+arxiv={2502.14296},
+url={https://arxiv.org/abs/2502.14296},
+preview={trustgen.png},
+website={https://trustgen.github.io/},
+abstract={Generative Foundation Models (GenFMs) have emerged as transformative tools. However, their widespread adoption raises critical concerns regarding trustworthiness across dimensions. This paper presents a comprehensive framework to address these challenges through three key contributions. First, we systematically review global AI governance laws and policies from governments and regulatory bodies, as well as industry practices and standards. Based on this analysis, we propose a set of guiding principles for GenFMs, developed through extensive multidisciplinary collaboration that integrates technical, ethical, legal, and societal perspectives. Second, we introduce TrustGen, the first dynamic benchmarking platform designed to evaluate trustworthiness across multiple dimensions and model types, including text-to-image, large language, and vision-language models. TrustGen leverages modular components--metadata curation, test case generation, and contextual variation--to enable adaptive and iterative assessments, overcoming the limitations of static evaluation methods. Using TrustGen, we reveal significant progress in trustworthiness while identifying persistent challenges. Finally, we provide an in-depth discussion of the challenges and future directions for trustworthy GenFMs, which reveals the complex, evolving nature of trustworthiness, highlighting the nuanced trade-offs between utility and trustworthiness, and consideration for various downstream applications, identifying persistent challenges and providing a strategic roadmap for future research. This work establishes a holistic framework for advancing trustworthiness in GenAI, paving the way for safer and more responsible integration of GenFMs into critical applications. To facilitate advancement in the community, we release the toolkit for dynamic evaluation.}
+}
+
+@inproceedings{olmo2,
+title={2 OLMo 2 Furious},
+author={Evan Pete Walsh and Luca Soldaini and Dirk Groeneveld and Kyle Lo and Shane Arora and Akshita Bhagia and Yuling Gu and Shengyi Huang and Matt Jordan and Nathan Lambert and Dustin Schwenk and Oyvind Tafjord and Taira Anderson and David Atkinson and Faeze Brahman and Christopher Clark and Pradeep Dasigi and Nouha Dziri and Allyson Ettinger and Michal Guerquin and David Heineman and Hamish Ivison and Pang Wei Koh and Jiacheng Liu and Saumya Malik and William Merrill and Lester James Validad Miranda and Jacob Morrison and Tyler Murray and Crystal Nam and Jake Poznanski and Valentina Pyatkin and Aman Rangapur and Michael Schmitz and Sam Skjonsberg and David Wadden and Christopher Wilhelm and Michael Wilson and Luke Zettlemoyer and Ali Farhadi and Noah A. Smith and Hannaneh Hajishirzi},
+booktitle={COLM},
+month={},
+year={2025},
+arxiv={2501.00656},
+url={https://openreview.net/forum?id=2ezugTT9kU},
+preview={olmo2.png},
+code={https://github.com/allenai/OLMo-core},
+abstract={We present OLMo 2, the next generation of our fully open language models. OLMo 2 includes a family of dense autoregressive language models at 7B, 13B and 32B scales with fully released artifacts -- model weights, full training data, training code and recipes, training logs and thousands of intermediate checkpoints. In this work, we describe our modified model architecture and training recipe, focusing on techniques for achieving better training stability and improved per-token efficiency. Our updated pretraining data mixture introduces a new, specialized data mix called Dolmino Mix 1124, which significantly improves model capabilities across many downstream task benchmarks when introduced via late-stage curriculum training (i.e. specialized data during the annealing phase of pretraining). Finally, we incorporate best practices from Tülu 3 to develop OLMo 2-Instruct, focusing on permissive data and extending our final-stage reinforcement learning with verifiable rewards (RLVR). Our OLMo 2 base models sit at the Pareto frontier of performance to training compute, often matching or outperforming open-weight only models like Llama 3.1, Qwen 2.5, and Gemma 2 while using fewer FLOPs and with fully transparent training data, code, and recipe. Our fully open OLMo 2-Instruct models are competitive with open-weight only models of comparable size and even some proprietary models like GPT-3.5 Turbo and GPT 4o Mini.}
+}
+
+
+@inproceedings{tulu3,
+title={Tulu 3: Pushing Frontiers in Open Language Model Post-Training},
+author={Nathan Lambert and Jacob Morrison and Valentina Pyatkin and Shengyi Huang and Hamish Ivison and Faeze Brahman and Lester James Validad Miranda and Alisa Liu and Nouha Dziri and Xinxi Lyu and Yuling Gu and Saumya Malik and Victoria Graf and Jena D. Hwang and Jiangjiang Yang and Ronan Le Bras and Oyvind Tafjord and Christopher Wilhelm and Luca Soldaini and Noah A. Smith and Yizhong Wang and Pradeep Dasigi and Hannaneh Hajishirzi},
+booktitle={COLM},
+month={},
+year={2025},
+arxiv={2411.15124},
+url={https://openreview.net/forum?id=i1uGbfHHpH},
+preview={tulu3.png},
+code={https://github.com/allenai/open-instruct},
+abstract={Language model post-training is applied to refine behaviors and unlock new skills across a wide range of recent language models, but open recipes for applying these techniques lag behind proprietary ones. The underlying training data and recipes for post-training are simultaneously the most important pieces of the puzzle and the portion with the least transparency. To bridge this gap, we introduce Tulu 3, a family of fully-open state-of-the-art post-trained models, alongside its data, code, and training recipes, serving as a comprehensive guide for modern post-training techniques. Tulu 3, which builds on Llama 3.1 base models, achieves results surpassing the instruct versions of Llama 3.1, Qwen 2.5, Mistral, and even closed models such as GPT-4o-mini and Claude 3.5-Haiku. The training algorithms for our models include supervised finetuning (SFT), Direct Preference Optimization (DPO), and a novel method we call Reinforcement Learning with Verifiable Rewards (RLVR). With Tulu 3, we introduce a multi-task evaluation scheme for post-training recipes with development and unseen evaluations, standard benchmark implementations, and substantial decontamination of existing open datasets on said benchmarks. We conclude with analysis and discussion of training methods that did not reliably improve performance. In addition to the Tulu 3 model weights and demo, we release the complete recipe -- including datasets for diverse core skills, a robust toolkit for data curation and evaluation, the training code and infrastructure, and, most importantly, a detailed report for reproducing and further adapting the Tulu 3 approach to more domains.}
+}
+
+@inproceedings{safetyanalyst,
+title={SafetyAnalyst: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior},
+author={Jing-Jing Li and Valentina Pyatkin and Max Kleiman-Weiner and Liwei Jiang and Nouha Dziri and Anne GE Collins and Jana Schaich Borg and Maarten Sap and Yejin Choi and Sydney Levine},
+booktitle={ICML},
+month={},
+year={2025},
+arxiv={2410.16665},
+preview={safetyanalyst.png},
+abstract={The ideal AI safety moderation system would be both structurally interpretable (so its decisions can be reliably explained) and steerable (to align to safety standards and reflect a community's values), which current systems fall short on. To address this gap, we present SafetyAnalyst, a novel AI safety moderation framework. Given an AI behavior, SafetyAnalyst uses chain-of-thought reasoning to analyze its potential consequences by creating a structured "harm-benefit tree," which enumerates harmful and beneficial actions and effects the AI behavior may lead to, along with likelihood, severity, and immediacy labels that describe potential impacts on stakeholders. SafetyAnalyst then aggregates all effects into a harmfulness score using 28 fully interpretable weight parameters, which can be aligned to particular safety preferences. We applied this framework to develop an open-source LLM prompt safety classification system, distilled from 18.5 million harm-benefit features generated by frontier LLMs on 19k prompts. On comprehensive benchmarks, we show that SafetyAnalyst (average F1=0.81) outperforms existing moderation systems (average F1 0.72) on prompt safety classification, while offering the additional advantages of interpretability, transparency, and steerability.}
+}
+
+
+@inproceedings{olmoSafety,
+title={To Err Is AI: A Case Study Informing LLM Flaw Reporting Practices},
+author={Sean McGregor and Allyson Ettinger and Nick Judd and Paul Albee and Liwei Jiang and Kavel Rao and William H. Smith and Shayne Longpre and Avijit Ghosh and Christopher Fiorelli and Michelle Hoang and Sven Cattell and Nouha Dziri},
+booktitle={AAAI},
+month={},
+year={2025},
+arxiv={2410.12104},
+url={https://doi.org/10.1609/aaai.v39i28.35162},
+preview={olmosafety.png},
+abstract={In August of 2024, 495 hackers generated evaluations in an open-ended bug bounty targeting the Open Language Model (OLMo) from The Allen Institute for AI. A vendor panel staffed by representatives of OLMo's safety program adjudicated changes to OLMo's documentation and awarded cash bounties to participants who successfully demonstrated a need for public disclosure clarifying the intent, capacities, and hazards of model deployment. This paper presents a collection of lessons learned, illustrative of flaw reporting best practices intended to reduce the likelihood of incidents and produce safer large language models (LLMs). These include best practices for safety reporting processes, their artifacts, and safety program staffing.}
+}
+
+@inproceedings{creativity,
+title={AI as Humanity's Salieri: Quantifying Linguistic Creativity of Language Models via Systematic Attribution of Machine Text against Web Text},
+author={Ximing Lu and Melanie Sclar and Skyler Hallinan and Niloofar Mireshghallah and Jiacheng Liu and Seungju Han and Allyson Ettinger and Liwei Jiang and Khyathi Chandu and Nouha Dziri and Yejin Choi},
+booktitle={ICLR (Oral)},
+month={},
+year={2025},
+arxiv={2410.04265},
+url={https://openreview.net/forum?id=ilOEOIqolQ},
+preview={creativity_index.png},
+code={https://github.com/GXimingLu/creativity_index},
+abstract={Creativity has long been considered one of the most difficult aspect of human intelligence for AI to mimic. However, the rise of Large Language Models (LLMs), like ChatGPT, has raised questions about whether AI can match or even surpass human creativity. We present CREATIVITY INDEX as the first step to quantify the linguistic creativity of a text by reconstructing it from existing text snippets on the web. CREATIVITY INDEX is motivated by the hypothesis that the seemingly remarkable creativity of LLMs may be attributable in large part to the creativity of human-written texts on the web. To compute CREATIVITY INDEX efficiently, we introduce DJ SEARCH, a novel dynamic programming algorithm that can search verbatim and near-verbatim matches of text snippets from a given document against the web. Experiments reveal that the CREATIVITY INDEX of professional human authors is on average 66.2% higher than that of LLMs, and that alignment reduces the CREATIVITY INDEX of LLMs by an average of 30.1%. In addition, we find that distinguished authors like Hemingway exhibit measurably higher CREATIVITY INDEX compared to other human writers. Finally, we demonstrate that CREATIVITY INDEX can be used as a surprisingly effective criterion for zero-shot machine text detection, surpassing the strongest existing zero-shot system, DetectGPT, by a significant margin of 30.2%, and even outperforming the strongest supervised system, GhostBuster, in five out of six domains.}
+}
 
 @inproceedings{relai,
   title={Rel-AI: An Interaction-Centered Approach To Measuring Human-LM Reliance},
   author={Kaitlyn Zhou and Jena D Hwang and Xiang Ren and Nouha Dziri and Dan Jurafsky and Maarten Sap},
-  booktitle={Arxiv},
-  month=July,
-  year={2024},
-  url={https://arxiv.org/pdf/2407.07950},
+  booktitle={NAACL (Best Paper Runner Up)},
+  month={},
+  year={2025},
+  url={https://aclanthology.org/2025.naacl-long.556/},
   preview={rel.png},
-  arxiv={2406.04770},
+  arxiv={2407.07950},
 abstract={The ability to communicate uncertainty, risk, and limitation is crucial for the safety of large language models. However, current evaluations of these abilities rely on simple calibration, asking whether the language generated by the model matches appropriate probabilities. Instead, evaluation of this aspect of LLM communication should focus on the behaviors of their human interlocutors: how much do they rely on what the LLM says? Here we introduce an interaction-centered evaluation framework called Rel-A.I. (pronounced "rely"}) that measures whether humans rely on LLM generations. We use this framework to study how reliance is affected by contextual features of the interaction (e.g, the knowledge domain that is being discussed), or the use of greetings communicating warmth or competence (e.g., "I'm happy to help!"). We find that contextual characteristics significantly affect human reliance behavior. For example, people rely 10% more on LMs when responding to questions involving calculations and rely 30% more on LMs that are perceived as more competent. Our results show that calibration and language quality alone are insufficient in evaluating the risks of human-LM interactions, and illustrate the need to consider features of the interactional context.
  }}
 
 
 @inproceedings{Wildguard,
-  title={Wildguard: Open one-stop moderation tools for safety risks, jailbreaks, and refusals of LLMs},
+  title={WildGuard: Open one-stop moderation tools for safety risks, jailbreaks, and refusals of LLMs},
   author={Seungju Han and Kavel Rao and Allyson Ettinger and Liwei Jiang and Bill Yuchen Lin and Nathan Lambert and Yejin Choi and Nouha Dziri},
-  booktitle={Arxiv},
-  month=July,
+  booktitle={NeurIPS},
+  month={},
   year={2024},
-  url={https://arxiv.org/pdf/2406.18510},
+  url={https://arxiv.org/abs/2406.18510},
   preview={wildguard.png},
   code={https://github.com/allenai/wildguard},
-  arxiv={2406.04770},
+  arxiv={2406.18495},
 abstract={We introduce WildGuard -- an open, light-weight moderation tool for LLM safety that achieves three goals: (1) identifying malicious intent in user prompts, (2) detecting safety risks of model responses, and (3) determining model refusal rate. Together, WildGuard serves the increasing needs for automatic safety moderation and evaluation of LLM interactions, providing a one-stop tool with enhanced accuracy and broad coverage across 13 risk categories. While existing open moderation tools such as Llama-Guard2 score reasonably well in classifying straightforward model interactions, they lag far behind a prompted GPT-4, especially in identifying adversarial jailbreaks and in evaluating models' refusals, a key measure for evaluating safety behaviors in model responses.
 }}
 
 
-@inproceedings{Wilteam,
+@inproceedings{WildTeaming,
   title={WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models},
   author={Seungju Han and Kavel Rao and Allyson Ettinger and Liwei Jiang and Bill Yuchen Lin and Nathan Lambert and Yejin Choi and Nouha Dziri},
-  booktitle={Arxiv},
-  month=July,
+  booktitle={NeurIPS},
+  month={},
   year={2024},
-  url={https://arxiv.org/pdf/2406.18495},
+  url={https://arxiv.org/abs/2406.18495},
   preview={wildteaming.png},
   code={https://github.com/allenai/wildteaming},
   arxiv={2406.04770},
@@ -44,15 +185,16 @@ abstract={We introduce WildGuard -- an open, light-weight moderation tool for LL
 Importantly, WildGuard matches and sometimes exceeds GPT-4.}}
 
 
-@inproceedings{rewardBench,
+@inproceedings{wildBench,
   title={WildBench: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild},
   author={Bill Yuchen Lin and Yuntian Deng and Khyathi Chandu and Faeze Brahman and Abhilasha Ravichander and Valentina Pyatkin and Nouha Dziri and Ronan Le Bras and Yejin Choi},
-  booktitle={Arxiv},
-  month=June,
-  year={2024},
-  url={https://arxiv.org/pdf/2406.04770},
+  booktitle={ICLR},
+  month={},
+  year={2025},
+  url={https://arxiv.org/abs/2406.04770},
   preview={wildbench.png},
-  code={https://huggingface.co/spaces/allenai/WildBench},
+  code={https://github.com/allenai/WildBench},
+  website={https://huggingface.co/spaces/allenai/WildBench},
   arxiv={2406.04770},
 abstract={We introduce WildBench, an automated evaluation framework designed to benchmark large language models (LLMs) using challenging, real-world user queries.
 WILDBENCH consists of 1,024 tasks carefully selected from over one million
@@ -75,12 +217,12 @@ win rates, as well as the 0.87 for regular win rates.}}
 
 
 @inproceedings{rewardBench,
-  title={Rewardbench: Evaluating reward models for language modeling},
+  title={RewardBench: Evaluating reward models for language modeling},
   author={Nathan Lambert and Valentina Pyatkin and Jacob Morrison and LJ Miranda and Bill Yuchen Lin and Khyathi Chandu and Nouha Dziri and Sachin Kumar and Tom Zick and Yejin Choi and Noah A Smith and Hannaneh Hajishirzi},
   booktitle={Arxiv},
   month=March,
   year={2024},
-  url={https://arxiv.org/pdf/2403.13787},
+  url={https://arxiv.org/abs/2403.13787},
   preview={reward.png},
   code={https://github.com/allenai/reward-bench},
   arxiv={2403.13787},
@@ -104,9 +246,9 @@ models towards a better understanding of the RLHF process.}}
   title={A roadmap to pluralistic alignment},
   author={Taylor Sorensen and Jared Moore and Jillian Fisher and Mitchell Gordon and Niloofar Mireshghallah and Christopher Michael Rytting and Andre Ye and Liwei Jiang and Ximing Lu and Nouha Dziri and Tim Althoff and Yejin Choi},
   booktitle={ICML},
-  month=July,
+  month={},
   year={2024},
-  url={https://arxiv.org/pdf/2402.05070},
+  url={https://arxiv.org/abs/2402.05070},
   preview={plua.png},
   arxiv={2402.05070},
 abstract={With increased power and prevalence of AI systems, it is ever more critical that AI systems are designed to serve all, i.e., people with diverse values and perspectives. However, aligning models to serve pluralistic human values remains an open research question. In this piece, we propose a roadmap to pluralistic alignment, specifically using language models as a test bed. We identify and formalize three possible ways to define and operationalize pluralism in AI systems: 1) Overton pluralistic models that present a spectrum of reasonable responses;
@@ -119,10 +261,10 @@ abstract={With increased power and prevalence of AI systems, it is ever more cri
   alignment procedures might reduce distributional pluralism in models, motivating the need for further research on pluralistic alignment.}}
 
 @inproceedings{inductive,
-  title={Phenomenal yet puzzling: Testing inductive reasoning capabilities of language models with hypothesis refinement},
+  title={Phenomenal Yet Puzzling: Testing Inductive Reasoning Capabilities of Language Models with Hypothesis Refinement},
   author={Linlu Qiu and Liwei Jiang and Ximing Lu and Melanie Sclar and  Valentina Pyatkin and Chandra Bhagavatula and Bailin Wang and Yoon Kim and Yejin Choi and Nouha Dziri and Xiang Ren},
-  booktitle={ICLR},
-  month=Jan,
+  booktitle={ICLR (Oral)},
+  month={},
   year={2024},
   url={https://arxiv.org/abs/2310.08559},
   preview={inductive.png},
@@ -133,9 +275,9 @@ abstract={The ability to derive underlying principles from a handful of observat
 
 @inproceedings{paradox,
   title={The Generative AI Paradox: What It Can Create, It May Not Understand},
-  author={Peter West and Ximing Lu and Nouha Dziri and Faeze Brahman and Linjie Li and Jena D Hwang and Liwei Jiang and Jillian Fisher and Abhilasha Ravichander and Khyathi Chandu and Benjamin Newman and Pang Wei Koh and Allyson Ettinger and Yejin Choi},
+  author={Peter West* and Ximing Lu* and Nouha Dziri* and Faeze Brahman* and Linjie Li and Jena D Hwang and Liwei Jiang and Jillian Fisher and Abhilasha Ravichander and Khyathi Chandu and Benjamin Newman and Pang Wei Koh and Allyson Ettinger and Yejin Choi},
   booktitle={ICLR},
-  month=Jan,
+  month={},
   year={2024},
   url={https://arxiv.org/abs/2311.00059},
   preview={paradox.png},
@@ -148,7 +290,7 @@ abstract={The recent wave of generative AI has sparked unprecedented global atte
   title={The Unlocking Spell on Base LLMs: Rethinking Alignment via In-Context Learning},
   author={Bill Yuchen Lin  and Abhilasha Ravichander  and Ximing Lu and Nouha Dziri  and Melanie Sclar and Khyathi Chandu and Chandra Bhagavatula and Yejin Choi},
   booktitle={ICLR},
-  month=Jan,
+  month={},
   year={2024},
   url={https://arxiv.org/abs/2312.01552},
   preview={urial.png},
@@ -169,7 +311,7 @@ Based on these findings, we rethink the alignment of LLMs by posing the research
   booktitle={AAAI},
   month=Sept,
   year={2024},
-  url={https://arxiv.org/pdf/2309.00779},
+  url={https://arxiv.org/abs/2309.00779},
   preview={kaleido.png},
   arxiv={2309.00779},
   code={https://github.com/tsor13/kaleido},
@@ -196,7 +338,7 @@ abstract={Visual information is central to conversation: body gestures and facia
                   Allyson {Ettinger} and
                   Zaid {Harchaoui} and
                   Yejin {Choi}},
-  booktitle={Neurips},
+  booktitle={NeurIPS (Spotlight)},
   month=June,
   year={2023},
   url={https://arxiv.org/abs/2305.18654},
@@ -211,10 +353,10 @@ abstract={Visual information is central to conversation: body gestures and facia
 @inproceedings{rlhf,
   title={Fine-Grained Human Feedback Gives Better Rewards for Language Model Training},
   author={Zeqiu Wu  and Yushi Hu  and Weijia Shi  and Nouha Dziri  and Alane Suhr  and Prithviraj Ammanabrolu  and Noah Smith  and Mari Ostendorf  and Hannaneh Hajishirzi},
-  booktitle={Neurips},
+  booktitle={NeurIPS (Spotlight)},
   month=June,
   year={2023},
-  url={https://arxiv.org/pdf/2306.01693},
+  url={https://arxiv.org/abs/2306.01693},
   preview={rlhf.png},
   arxiv={2306.01693},
   code={https://github.com/allenai/FineGrainedRLHF},
@@ -228,10 +370,11 @@ abstract={Language models (LMs) often exhibit undesirable text generation behavi
   booktitle={EMNLP},
   month=May,
   year={2023},
-  url={},
+  url={https://aclanthology.org/2023.findings-emnlp.812/},
   preview={defeasible.png},
-  arxiv={},
-  abstract={}
+  arxiv={2310.15431},
+  abstract={Moral or ethical judgments rely heavily on the specific contexts in which they occur. Understanding varying shades of defeasible contextualizations (i.e., additional information that strengthens or attenuates the moral acceptability of an action) is critical to accurately represent the subtlety and intricacy of grounded human moral judgment in real-life scenarios.
+We introduce defeasible moral reasoning: a task to provide grounded contexts that make an action more or less morally acceptable, along with commonsense rationales that justify the reasoning. To elicit high-quality task data, we take an iterative self-distillation approach that starts from a small amount of unstructured seed knowledge from GPT-3 and then alternates between (1) self-distillation from student models; (2) targeted filtering with a critic model trained by human judgment (to boost validity) and NLI (to boost diversity); (3) self-imitation learning (to amplify the desired data quality). This process yields a student model that produces defeasible contexts with improved validity, diversity, and defeasibility. From this model we distill a high-quality dataset, \delta-Rules-of-Thumb, of 1.2M entries of contextualizations and rationales for 115K defeasible moral actions rated highly by human annotators 85.9% to 99.8% of the time. Using \delta-RoT we obtain a final student model that wins over all intermediate student models by a notable margin.}
 }
 
 @inproceedings{ipa,
@@ -263,7 +406,7 @@ abstract={Large language models excel at a variety of language tasks when prompt
                   Shashank Gupta and
                   Amir Yazdanbakhsh and
                   Peter Clark},
-  booktitle={Neurips},
+  booktitle={NeurIPS},
   month=Mar,
   year={2023},
   url={https://arxiv.org/abs/2303.17651},
@@ -292,12 +435,12 @@ abstract={Visual information is central to conversation: body gestures and facia
 @inproceedings{elastic,
   title={Elastic weight removal for faithful and abstractive dialogue generation},
   author={Nico Daheim  and Nouha Dziri  and Mrinmaya Sachan  and Iryna Gurevych  and Edoardo M Ponti},
-  month=March,
-  year={2023},
-  booktitle={arXiv},
-  journal={ArXiv},
+  month={},
+  year={2024},
+  booktitle={NAACL},
   code={https://github.com/ndaheim/faithful-dialogue},
   arxiv={2303.17574},
+  url={aclanthology.org/2024.naacl-long.393/},
   preview={ewr.png},
 abstract={Ideally, dialogue systems should generate responses that are faithful to the knowledge contained in relevant documents. However, many models generate hallucinated responses instead that contradict it or contain unverifiable information. To mitigate such undesirable behaviour, it has been proposed to fine-tune a `negative expert' on negative examples and subtract its parameters from those of a pre-trained model. However, intuitively, this does not take into account that some parameters are more responsible than others in causing hallucinations. Thus, we propose to weigh their individual importance via (an approximation of) the Fisher Information matrix, which measures the uncertainty of their estimate. We call this method Elastic Weight Removal (EWR). We evaluate our method -- using different variants of Flan-T5 as a backbone language model -- on multiple datasets for information-seeking dialogue generation and compare our method with state-of-the-art techniques for faithfulness, such as CTRL, Quark, DExperts, and Noisy Channel reranking. Extensive automatic and human evaluation shows that EWR systematically increases faithfulness at minor costs in terms of other metrics. However, we notice that only discouraging hallucinations may increase extractiveness, i.e. shallow copy-pasting of document spans, which can be undesirable. Hence, as a second main contribution, we show that our method can be extended to simultaneously discourage hallucinations and extractive responses. We publicly release the code for reproducing EWR and all baselines.}}
 
@@ -447,5 +590,4 @@ abstract={Recent contrastive representation learning methods rely on estimating 
     pages = "49--54",
     abstract = "Despite myriad efforts in the literature designing neural dialogue generation systems in recent years, very few consider putting restrictions on the response itself. They learn from collections of past responses and generate one based on a given utterance without considering, speech act, desired style or emotion to be expressed. In this research, we address the problem of forcing the dialogue generation to express emotion. We present three models that either concatenate the desired emotion with the source input during the learning, or push the emotion in the decoder. The results, evaluated with an emotion tagger, are encouraging with all three models, but present better outcome and promise with our model that adds the emotion vector in the decoder.",
 }
-
 

@@ -1,9 +1,13 @@
 "Choi":
   - firstname: ["Yejin Choi", "Yejin"]
-    url: https://homes.cs.washington.edu/~yejin/
+    url: https://yejinc.github.io/
+
+"Song":
+  - firstname: ["Dawn Song", "Dawn"]
+    url: https://dawnsong.io/
 
 "Smith":
-  - firstname: ["Noah A Smith", "Noah Smith", "Noah"]
+  - firstname: ["Noah A Smith", "Noah Smith", "Noah", "Noah A."]
     url: https://nasmith.github.io/
 
 "Hajishirzi":
@@ -26,6 +30,10 @@
   - firstname: ["Osmar Zaiane", "Osmar"]
     url: http://webdocs.cs.ualberta.ca/~zaiane/index-legacy.html
 
-"Mathewson":
-  - firstname: ["Kory Mathewson", "Kory"]
-    url: https://korymathewson.com/
+"Neubig":
+  - firstname: ["Graham Neubig", "Graham"]
+    url: https://www.phontron.com/
+
+"Sap":
+  - firstname: ["Maarten Sap", "Maarten"]
+    url: https://maartensap.com/
