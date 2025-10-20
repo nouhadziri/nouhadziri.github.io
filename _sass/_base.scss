@@ -429,6 +429,19 @@ footer.sticky-bottom {
   }
 }
 
+.press-title {
+  font-size: 0.75em; /* Adjust this value to make it smaller than post-title */
+  mjx-container[jax="CHTML"][display="true"] {
+    display: unset;
+  }
+}
+
+.press-source {
+  font-size: 1.2em; /* Make press source larger */
+  margin-bottom: 0.5rem;
+  color: var(--global-text-color);
+}
+
 .post-list {
   margin: 0;
   margin-bottom: 40px;
