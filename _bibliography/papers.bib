@@ -2,17 +2,28 @@
 ---
 @string{aps = {American Physical Society,}}
 
+@inproceedings{hivemind,
+  title={ Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)},
+  author={Liwei Jiang and Chai Yuanjun and Margaret Li and Mickel Liu and Raymond Fok and Maarten Sap and Yulia Tsvetkov and Nouha Dziri and Yejin Choi},
+  booktitle={NeurIPS (Oral)},
+  month={},
+  year={2025},
+  preview={hivemind.png},
+  abstract={Language models (LMs) often struggle to generate diverse, human-like creative content, raising concerns about the long-term homogenization of human thought through repeated exposure to similar outputs. Yet, scalable methods for evaluating LM output diversity remain limited—especially beyond narrow tasks like random number generation or stylized prompts. To address this gap, we introduce InfiniteChats, a large-scale dataset of 26,000 diverse, real-world open-ended user queries, along with the first comprehensive taxonomy for characterizing the full spectrum of open-ended prompts posed to LMs, comprising six top-level categories and 17 subcategories. These queries admit a wide range of plausible answers with no single ground truth. Using InfiniteChats, we present a large-scale analysis of mode collapse in LMs, manifested as redundant outputs even for inherently open-ended queries. Our study reveals a pronounced "Artificial Hivemind" effect in open-ended generation, characterized by (1) intra-model repetition, where a single model consistently generates similar responses, and (2) inter-model homogeneity, where different models produce strikingly similar outputs.InfiniteChats also includes 31,250 human annotations, across absolute ratings and pairwise preferences, with 25 independent human annotations per example. This enables fine-grained analysis of distributional preferences across annotators. Our findings show that state-of-the-art LMs, reward models, and LM judges align less with human ratings when annotators disagree or when responses are of similar quality. Overall, InfiniteChats offers the first large-scale resource for systematically studying open-endedness in LM queries, revealing critical insights to guide future research and mitigate long-term AI safety risks posed by the Artificial Hivemind.}
+}
+
+
 @inproceedings{delta,
-title={RL Grokking Recipe: How Does RL Unlock and Transfer New Algorithms in LLMs?},
-author={Yiyou Sun and Shawn Hu and Georgia Zhou and Ken Zheng and Hannaneh Hajishirzi and Nouha Dziri* and Dawn Song*},
-booktitle={Arxiv},
-month=September,
-year={2025},
-arxiv={2509.21016},
-url={https://arxiv.org/abs/2509.21016},
-preview={delta.png},
-code={https://github.com/sunblaze-ucb/rl-grok-recipe},
-abstract={It remains an open question whether LLMs can acquire or generalize genuinely new reasoning strategies, beyond the sharpened skills encoded in their parameters during pre-training or post-training. To attempt to answer this debate, we introduce DELTA-Code -- Distributional Evaluation of Learnability and Transferrability in Algorithmic Coding -- a controlled benchmark of synthetic coding problem families designed to probe two fundamental aspects: learnability -- can LLMs, through reinforcement learning (RL), solve problem families where pretrained models exhibit failure with large enough attempts (pass@K=0)? -- and transferrability -- if learnability happens, can such skills transfer systematically to out-of-distribution (OOD) test sets? Unlike prior public coding datasets, DELTA isolates reasoning skills through templated problem generators and introduces fully OOD problem families that demand novel strategies rather than tool invocation or memorized patterns. Our experiments reveal a striking grokking phase transition: after an extended period with near-zero reward, RL-trained models abruptly climb to near-perfect accuracy. To enable learnability on previously unsolvable problem families, we explore key training ingredients such as staged warm-up with dense rewards, experience replay, curriculum training, and verification-in-the-loop. Beyond learnability, we use DELTA to evaluate transferability or generalization along exploratory, compositional, and transformative axes, as well as cross-family transfer. Results show solid gains within families and for recomposed skills, but persistent weaknesses in transformative cases. DELTA thus offers a clean testbed for probing the limits of RL-driven reasoning and for understanding how models can move beyond existing priors to acquire new algorithmic skills.}
+  title={RL Grokking Recipe: How Does RL Unlock and Transfer New Algorithms in LLMs?},
+  author={Yiyou Sun and Shawn Hu and Georgia Zhou and Ken Zheng and Hannaneh Hajishirzi and Nouha Dziri* and Dawn Song*},
+  booktitle={Arxiv},
+  month=September,
+  year={2025},
+  arxiv={2509.21016},
+  url={https://arxiv.org/abs/2509.21016},
+  preview={delta.png},
+  code={https://github.com/sunblaze-ucb/rl-grok-recipe},
+  abstract={It remains an open question whether LLMs can acquire or generalize genuinely new reasoning strategies, beyond the sharpened skills encoded in their parameters during pre-training or post-training. To attempt to answer this debate, we introduce DELTA-Code -- Distributional Evaluation of Learnability and Transferrability in Algorithmic Coding -- a controlled benchmark of synthetic coding problem families designed to probe two fundamental aspects: learnability -- can LLMs, through reinforcement learning (RL), solve problem families where pretrained models exhibit failure with large enough attempts (pass@K=0)? -- and transferrability -- if learnability happens, can such skills transfer systematically to out-of-distribution (OOD) test sets? Unlike prior public coding datasets, DELTA isolates reasoning skills through templated problem generators and introduces fully OOD problem families that demand novel strategies rather than tool invocation or memorized patterns. Our experiments reveal a striking grokking phase transition: after an extended period with near-zero reward, RL-trained models abruptly climb to near-perfect accuracy. To enable learnability on previously unsolvable problem families, we explore key training ingredients such as staged warm-up with dense rewards, experience replay, curriculum training, and verification-in-the-loop. Beyond learnability, we use DELTA to evaluate transferability or generalization along exploratory, compositional, and transformative axes, as well as cross-family transfer. Results show solid gains within families and for recomposed skills, but persistent weaknesses in transformative cases. DELTA thus offers a clean testbed for probing the limits of RL-driven reasoning and for understanding how models can move beyond existing priors to acquire new algorithmic skills.}
 }
 
 @inproceedings{openagentsafety,
@@ -26,6 +37,18 @@ url={https://arxiv.org/abs/2507.06134},
 preview={openagentsafety.png},
 code={https://github.com/sani903/OpenAgentSafety},
 abstract={Recent advances in AI agents capable of solving complex, everyday tasks, from scheduling to customer service, have enabled deployment in real-world settings, but their possibilities for unsafe behavior demands rigorous evaluation. While prior benchmarks have attempted to assess agent safety, most fall short by relying on simulated environments, narrow task domains, or unrealistic tool abstractions. We introduce OpenAgentSafety, a comprehensive and modular framework for evaluating agent behavior across eight critical risk categories. Unlike prior work, our framework evaluates agents that interact with real tools, including web browsers, code execution environments, file systems, bash shells, and messaging platforms; and supports over 350 multi-turn, multi-user tasks spanning both benign and adversarial user intents. OpenAgentSafety is designed for extensibility, allowing researchers to add tools, tasks, websites, and adversarial strategies with minimal effort. It combines rule-based analysis with LLM-as-judge assessments to detect both overt and subtle unsafe behaviors. Empirical analysis of five prominent LLMs in agentic scenarios reveals unsafe behavior in 51.2% of safety-vulnerable tasks with Claude-Sonnet-3.7, to 72.7% with o3-mini, highlighting critical safety vulnerabilities and the need for stronger safeguards before real-world deployment.}
+}
+
+@inproceedings{columbiaConvening,
+title={A Different Approach to AI Safety: Proceedings from the Columbia Convening on Openness in Artificial Intelligence and AI Safety},
+author={Camille François and Ludovic Pérán and Ayah Bdeir and Nouha Dziri and Will Hawkins and Yacine Jernite and Sayash Kapoor and Juliet Shen and Heidy Khlaaf and Kevin Klyman and Nik Marda and Marie Pellat and Deb Raji and Divya Siddarth and Aviya Skowron and Joseph Spisak and Madhulika Srikumar and Victor Storchan and Audrey Tang and Jen Weedon},
+booktitle={Arxiv},
+month={June},
+year={2025},
+arxiv={2506.22183},
+url={https://arxiv.org/abs/2506.22183},
+preview={columbia.jpg},
+abstract={The rapid rise of open-weight and open-source foundation models is intensifying the obligation and reshaping the opportunity to make AI systems safe. This paper reports outcomes from the Columbia Convening on AI Openness and Safety (San Francisco, 19 Nov 2024) and its six-week preparatory programme involving more than forty-five researchers, engineers, and policy leaders from academia, industry, civil society, and government. Using a participatory, solutions-oriented process, the working groups produced (i) a research agenda at the intersection of safety and open source AI; (ii) a mapping of existing and needed technical interventions and open source tools to safely and responsibly deploy open foundation models across the AI development workflow; and (iii) a mapping of the content safety filter ecosystem with a proposed roadmap for future research and development. We find that openness -- understood as transparent weights, interoperable tooling, and public governance -- can enhance safety by enabling independent scrutiny, decentralized mitigation, and culturally plural oversight. However, significant gaps persist: scarce multimodal and multilingual benchmarks, limited defenses against prompt-injection and compositional attacks in agentic systems, and insufficient participatory mechanisms for communities most affected by AI harms. The paper concludes with a roadmap of five priority research directions, emphasizing participatory inputs, future-proof content filters, ecosystem-wide safety infrastructure, rigorous agentic safeguards, and expanded harm taxonomies. These recommendations informed the February 2025 French AI Action Summit and lay groundwork for an open, plural, and accountable AI safety discipline.}
 }
 
 @inproceedings{singaporeAISafety,
