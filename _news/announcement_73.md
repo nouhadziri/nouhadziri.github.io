@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- :tada: 1 oral and 2 posters accepted at NeurIPS. See you in San Diego! 
+ :tada: 1 oral and 2 posters accepted at NeurIPS. See you in San Diego :sunny:
