@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- :fire: :rocket: New work "[RL Grokking Recipe: How Does RL Unlock New Algorithms in LLMs?](https://arxiv.org/pdf/2509.21016)" \[Code & Data\](https://github.com/sunblaze-ucb/rl-grok-recipe)
+ :fire: :rocket: New work "[RL Grokking Recipe: How Does RL Unlock New Algorithms in LLMs?](https://arxiv.org/pdf/2509.21016)" [[Code & Data]](https://github.com/sunblaze-ucb/rl-grok-recipe)
