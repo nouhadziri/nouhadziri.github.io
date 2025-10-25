@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:tada: 1 oral and 2 posters in ICLR 2025 Singapore  
+:tada: 1 oral and 2 posters in ICLR 2025 Singapore :singapore:
