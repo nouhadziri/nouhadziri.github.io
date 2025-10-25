@@ -1,0 +1,8 @@
+---
+layout: post
+date: 2025-09-25 07:59:00-0400
+inline: true
+related_posts: false
+---
+
+ :tada: 1 oral and 2 posters accepted at NeurIPS. See you in San Diego! 
