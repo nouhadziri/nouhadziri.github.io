@@ -339,7 +339,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://sites.google.com/view/fm-eval-workshop/home" target="_blank">
-<div class="talk-thumbnail placeholder">LLM Evaluation</div>
+<div class="talk-thumbnail placeholder">Limits of LLM Transformers</div>
 <div class="talk-info">
 <div class="talk-title">Faith and Fate: Limits of Transformers on Compositionality</div>
 <div class="talk-event">The Alan Turing Institute</div>
@@ -350,7 +350,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://web.inf.ed.ac.uk/ilcc/news-events/seminars-2023/nuaha-dziri-seminar" target="_blank">
-<div class="talk-thumbnail placeholder">ILCC CDT/NLP Seminar</div>
+<div class="talk-thumbnail placeholder">Limits of LLM Transformers</div>
 <div class="talk-info">
 <div class="talk-title">Faith and Fate: Limits of Transformers on Compositionality</div>
 <div class="talk-event">University of Edinburgh</div>
@@ -361,7 +361,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://sites.google.com/view/sail-ws-llms/program" target="_blank">
-<div class="talk-thumbnail placeholder">SAIL Workshop</div>
+<div class="talk-thumbnail placeholder">Limits of LLM Transformers</div>
 <div class="talk-info">
 <div class="talk-title">Faith and Fate: Limits of Transformers on Compositionality</div>
 <div class="talk-event">SAIL Workshop</div>
@@ -372,7 +372,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://calendar.pitt.edu/event/cs_seminar_faith_and_fate_limits_of_transformers_on_compositionality" target="_blank">
-<div class="talk-thumbnail placeholder">Compositionality</div>
+<div class="talk-thumbnail placeholder">Limits of LLM Transformers</div>
 <div class="talk-info">
 <div class="talk-title">Faith and Fate: Limits of Transformers on Compositionality</div>
 <div class="talk-event">University of Pittsburgh</div>
@@ -383,9 +383,9 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://www.youtube.com/watch?v=I_JrRMqL8zk" target="_blank">
-<div class="talk-thumbnail placeholder">Formal Languages & Neural Networks</div>
+<div class="talk-thumbnail placeholder">Limits of LLM Transformers</div>
 <div class="talk-info">
-<div class="talk-title">Formal Languages and Neural Networks</div>
+<div class="talk-title">Faith and Fate: Limits of Transformers on Compositionality</div>
 <div class="talk-event">FLANN Seminar</div>
 <div class="talk-year">Sep 2023</div>
 </div>
@@ -394,10 +394,10 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://nlp.stanford.edu/seminar/details/nouhadziri.shtml" target="_blank">
-<div class="talk-thumbnail placeholder">Towards Building Faithful Conversational Models</div>
+<div class="talk-thumbnail placeholder">Building Faithful Conversational Models</div>
 <div class="talk-info">
-<div class="talk-title">Stanford NLP Seminar</div>
-<div class="talk-event">Stanford University</div>
+<div class="talk-title">Towards Building Faithful Conversational Models</div>
+<div class="talk-event">Stanford NLP Seminar</div>
 <div class="talk-year">Jun 2022</div>
 </div>
 </a>
