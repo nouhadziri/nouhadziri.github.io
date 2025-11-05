@@ -341,7 +341,7 @@ nav_order: 1
 <a href="https://sites.google.com/view/fm-eval-workshop/home" target="_blank">
 <div class="talk-thumbnail placeholder">LLM Evaluation</div>
 <div class="talk-info">
-<div class="talk-title">LLM Evaluation Workshop</div>
+<div class="talk-title">Faith and Fate: Limits of Transformers on Compositionality</div>
 <div class="talk-event">The Alan Turing Institute</div>
 <div class="talk-year">Nov 2023</div>
 </div>
@@ -350,9 +350,9 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://web.inf.ed.ac.uk/ilcc/news-events/seminars-2023/nuaha-dziri-seminar" target="_blank">
-<div class="talk-thumbnail placeholder">ILCC CDT/NLP</div>
+<div class="talk-thumbnail placeholder">ILCC CDT/NLP Seminar</div>
 <div class="talk-info">
-<div class="talk-title">ILCC CDT/NLP Seminar</div>
+<div class="talk-title">Faith and Fate: Limits of Transformers on Compositionality</div>
 <div class="talk-event">University of Edinburgh</div>
 <div class="talk-year">Nov 2023</div>
 </div>
@@ -363,7 +363,7 @@ nav_order: 1
 <a href="https://sites.google.com/view/sail-ws-llms/program" target="_blank">
 <div class="talk-thumbnail placeholder">SAIL Workshop</div>
 <div class="talk-info">
-<div class="talk-title">Fundamental Limits on LLMs</div>
+<div class="talk-title">Faith and Fate: Limits of Transformers on Compositionality</div>
 <div class="talk-event">SAIL Workshop</div>
 <div class="talk-year">Nov 2023</div>
 </div>
@@ -394,7 +394,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://nlp.stanford.edu/seminar/details/nouhadziri.shtml" target="_blank">
-<div class="talk-thumbnail placeholder">Stanford NLP</div>
+<div class="talk-thumbnail placeholder">Towards Building Faithful Conversational Models</div>
 <div class="talk-info">
 <div class="talk-title">Stanford NLP Seminar</div>
 <div class="talk-event">Stanford University</div>
