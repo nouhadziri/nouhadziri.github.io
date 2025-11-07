@@ -102,27 +102,27 @@ nav_order: 5
 <div class="talk-grid">
 
 <div class="talk-card">
-<a href="https://www.youtube.com/watch?v=Qm4YLl0fj5I" target="_blank">
+<a href="https://slideslive.com/39031288/panel-discussion?ref=folder-163263" target="_blank">
 <div class="talk-thumbnail">
-    <img src="/assets/img/talks/safety.png" alt="Safety Benchmarks">
+    <img src="/assets/img/talks/neurips24_panel.jpg" alt="Neurips Reasoning Panel">
 </div>
 <div class="talk-info">
-<div class="talk-title">Safety Benchmarks Panel</div>
-<div class="talk-event">MLCommons Panel w. Ion Stoica, April Chen, and Wan Sie Lee. </div>
+<div class="talk-title">NeurIPS 2024 Reasoning Panel</div>
+<div class="talk-event">Panel w. Yoshua Bengio, Dawn Song, Melanie Mitchell, Joshua Tenenbaum, François Chollet, Dzmitry Bahdanau, Jason Weston. </div>
 <div class="talk-year">Dec 2024</div>
 </div>
 </a>
 </div>
 
 <div class="talk-card">
-<a href="https://www.youtube.com/watch?v=Qm4YLl0fj5I" target="_blank">
+<a href="https://us06web.zoom.us/rec/play/0tI5NqRtu54u872jJUH6gcPhVqZF0HQuy6pU9RstmMNBM4aEaceTDxNQ7a2A1Mq4QYo7KvaangspQ9vW.vroRE1frIW00v4mX?eagerLoadZvaPages=sidemenu.billing.plan_management&accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fus06web.zoom.us%2Frec%2Fshare%2F81WF17cMeTQHfuAr5CPiE6S4KOunQfJ5pOg0xZEtOf11NeowDl5aSvgraHRoVreF.FCREMSgVwlmQXIiy" target="_blank">
 <div class="talk-thumbnail">
-    <img src="/assets/img/talks/safety.png" alt="Safety Benchmarks">
+    <img src="/assets/img/talks/realm.png" alt="Agent workshop">
 </div>
 <div class="talk-info">
-<div class="talk-title">Safety Benchmarks Panel</div>
-<div class="talk-event">MLCommons Panel w. Ion Stoica, April Chen, and Wan Sie Lee. </div>
-<div class="talk-year">Dec 2024</div>
+<div class="talk-title">ACL 2025 LLM agents Panel</div>
+<div class="talk-event">Panel w. Nicolas Chapados, Diyi Yang, Roberta Raileanu, Yu Su, Daniel Fried. </div>
+<div class="talk-year">Jul 2025</div>
 </div>
 </a>
 </div>
