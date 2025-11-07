@@ -99,6 +99,8 @@ nav_order: 5
 
 ### Moderating Panels
 
+<div class="talk-grid">
+
 <div class="talk-card">
 <a href="https://www.youtube.com/watch?v=Qm4YLl0fj5I" target="_blank">
 <div class="talk-thumbnail">
@@ -112,7 +114,6 @@ nav_order: 5
 </a>
 </div>
 
-
 <div class="talk-card">
 <a href="https://www.youtube.com/watch?v=Qm4YLl0fj5I" target="_blank">
 <div class="talk-thumbnail">
@@ -124,6 +125,8 @@ nav_order: 5
 <div class="talk-year">Dec 2024</div>
 </div>
 </a>
+</div>
+
 </div>
 
 ### Organizing Workshops
