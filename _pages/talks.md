@@ -103,6 +103,20 @@ nav_order: 1
 
 
 <div class="talk-card">
+<a href="" target="_blank">
+<div class="talk-thumbnail">
+    <img src="/assets/img/talks/deshaw.jpg" alt="DeShaw">
+</div>
+<div class="talk-info">
+<div class="talk-title">Limits of Transformers in Reasoning</div>
+<div class="talk-event">DE.Shaw invited talk</div>
+<div class="talk-year">July 2025</div>
+</div>
+</a>
+</div>
+
+
+<div class="talk-card">
 <a href="https://www.youtube.com/watch?v=uCm-Osfcogk&list=PL6uSmoBKOSuuZsTPc4EHx7HBt3zCvUnY4&index=3" target="_blank">
 <div class="talk-thumbnail">
     <img src="/assets/img/talks/armenia.jpeg" alt="Apple">
