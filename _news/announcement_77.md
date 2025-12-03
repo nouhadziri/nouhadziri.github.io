@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:tada: [Best Paper Award](https://blog.neurips.cc/2025/11/26/announcing-the-neurips-2025-best-paper-awards/) at NeurIPS 2025 :trophy: :1st_place_medal:
+:tada: Super proud of receiving the [Best Paper Award](https://blog.neurips.cc/2025/11/26/announcing-the-neurips-2025-best-paper-awards/) at NeurIPS 2025 :trophy: :trophy:
