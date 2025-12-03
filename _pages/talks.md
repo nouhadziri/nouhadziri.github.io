@@ -107,7 +107,7 @@ nav_order: 1
     <img src="/assets/img/talks/ivado-safety.png" alt="ivado">
 </div>
 <div class="talk-info">
-<div class="talk-title">LLM to Agent Safety:Emerging Technical and Societal Risks</div>
+<div class="talk-title">LLM to Agent Safety: Emerging Technical and Societal Risks</div>
 <div class="talk-event">IVADO Workshop: Deploying Autonomous Agents: Lessons, Risks, and Real-World Impact</div>
 <div class="talk-year">Nov 2025</div>
 </div>
