@@ -121,7 +121,7 @@ nav_order: 1
 </div>
 <div class="talk-info">
 <div class="talk-title">Limits of Transformers in Reasoning</div>
-<div class="talk-event">D.E.Shaw (NYC) invited talk</div>
+<div class="talk-event">D.E.Shaw (NYC)</div>
 <div class="talk-year">Sept 2025</div>
 </div>
 </a>
