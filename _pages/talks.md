@@ -102,7 +102,7 @@ nav_order: 1
 <div class="talk-grid">
 
 <div class="talk-card">
-<a href="" target="_blank">
+<a href="https://www.youtube.com/watch?v=IYLNxg1QDXM" target="_blank">
 <div class="talk-thumbnail">
     <img src="/assets/img/talks/ivado-safety.png" alt="ivado">
 </div>
