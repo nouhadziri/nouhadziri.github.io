@@ -14,11 +14,9 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+I'm a senior research scientist at Cohere Labs working with Joelle Pineau. Previously, I was a research scientist and a postdoc with  [Yejin Choi](https://yejinc.github.io/) at [Ai2](https://allenai.org/) where I co-led the safety and post-training effort to build [(OLMo)](https://allenai.org/olmo). 
 
-I'm a research scientist at [Allen Institute for AI (AI2)](https://allenai.org/).
-**I co-led the safety and post-training effort at Ai2** to build [(OLMo)](https://allenai.org/olmo): a highly capable and truly open LLM to advance AI.
-
-Prior to this, I was a postdoc with [Yejin Choi](https://yejinc.github.io/). My research focuses on NLP and ML, with a particular emphasis on LLMs. I work on:
+My research focuses on NLP and ML, with a particular emphasis on LLMs. I work on:
 
 - **Understanding Reasoning Limits of LLMs**: I study how and why LLMs succeed or fail to generalize on OOD reasoning tasks. Is it true algorithmic understanding or pattern matching? Check out my works ([Faith and Fate](https://arxiv.org/pdf/2305.18654); NeurIPS 2023), ([Generative AI Paradox](https://openreview.net/pdf?id=CF8H8MS5P8); ICLR 2024), ([OMEGA](https://arxiv.org/pdf/2506.18880); NeurIPS 2025)
 - **Advancing Reasoning Capabilities in LLMs**: I develop training methods and datasets to systematically advance reasoning in mathematical and code domains. Check out the [RL Grokking Recipe](https://arxiv.org/pdf/2509.21016) and my contributions to post-training large-scale efforts ([Tulu 3](https://arxiv.org/pdf/2411.15124) & [OLMo2](https://arxiv.org/pdf/2501.00656); COLM 2025).
