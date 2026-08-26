@@ -103,6 +103,116 @@ nav_order: 1
 
 
 <div class="talk-card">
+<a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">Reasoning in LLMs</div>
+<div class="talk-info">
+<div class="talk-title">Understanding Reasoning in LLMs and (Agentic) LLMs</div>
+<div class="talk-event">ICML 2026 Workshop on Compositional Learning: Safety and Agents</div>
+<div class="talk-year">July 2026</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">Coding Agents</div>
+<div class="talk-info">
+<div class="talk-title">How Coding Agents Fail: Coordination and Honesty</div>
+<div class="talk-event">ICML 2026 Workshop on Failure Modes in Agentic AI</div>
+<div class="talk-year">July 2026</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">Knowledge Control</div>
+<div class="talk-info">
+<div class="talk-title">Panel: Knowledge Control for Responsible Generative AI</div>
+<div class="talk-event">ACL 2026 Tutorial, San Diego (with Jindong Gu and Yuning Mao)</div>
+<div class="talk-year">July 2026</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">Agent Safety</div>
+<div class="talk-info">
+<div class="talk-title">Emergent Safety Risks in Multi-Agent and Single-Agent Systems</div>
+<div class="talk-event">CVPR 2026 Workshop on Safety of Vision-Language Agents</div>
+<div class="talk-year">June 2026</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">Why LLMs Still Fail</div>
+<div class="talk-info">
+<div class="talk-title">Why LLMs Still Fail: Reasoning, Robustness, and Safety</div>
+<div class="talk-event">ODSC AI East 2026 (Keynote)</div>
+<div class="talk-year">April 2026</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">Reasoning in LRMs</div>
+<div class="talk-info">
+<div class="talk-title">Understanding and Improving Reasoning in Large Reasoning Models</div>
+<div class="talk-event">ICLR 2026 Workshop on Scaling Post-training for LLMs</div>
+<div class="talk-year">April 2026</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">Reasoning in LRMs</div>
+<div class="talk-info">
+<div class="talk-title">Understanding and Improving Reasoning in Large Reasoning Models</div>
+<div class="talk-event">ICLR 2026 Workshop on Multimodal Intelligence</div>
+<div class="talk-year">April 2026</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">Multi-Agent Systems</div>
+<div class="talk-info">
+<div class="talk-title">From Single Models to Multi-Agent Systems and Their Risks</div>
+<div class="talk-event">IVADO Workshop on Social Reasoning and the Ecology of Thought</div>
+<div class="talk-year">March 2026</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">Reasoning in LLMs</div>
+<div class="talk-info">
+<div class="talk-title">Reasoning in LLMs</div>
+<div class="talk-event">IVADO Workshop on Cognitive Basis of Reasoning (in Minds and AI), Montreal</div>
+<div class="talk-year">Jan 2026</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="https://neurips.cc/virtual/2025/loc/mexico-city/128795" target="_blank">
+<div class="talk-thumbnail placeholder">Trustworthy Foundation Models</div>
+<div class="talk-info">
+<div class="talk-title">Panel: Science of Trustworthy Generative Foundation Models</div>
+<div class="talk-event">NeurIPS 2025 Tutorial, San Diego (with Pin-Yu Chen, Max Lamparth, and Canyu Chen)</div>
+<div class="talk-year">Dec 2025</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
 <a href="https://www.youtube.com/watch?v=IYLNxg1QDXM" target="_blank">
 <div class="talk-thumbnail">
     <img src="/assets/img/talks/ivado-safety.png" alt="ivado">
@@ -273,6 +383,28 @@ nav_order: 1
 
 
 <div class="talk-card">
+<a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">In-Context Learning</div>
+<div class="talk-info">
+<div class="talk-title">In-Context Learning in LLMs: Potential and Limits</div>
+<div class="talk-event">Causality in the Era of Foundation Models Workshop, Barbados</div>
+<div class="talk-year">Feb 2025</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">Red-teaming LLMs</div>
+<div class="talk-info">
+<div class="talk-title">Red-teaming and Safeguarding LLMs</div>
+<div class="talk-event">International Association for Safe and Ethical AI (IASEAI), Paris</div>
+<div class="talk-year">Feb 2025</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
 <a href="https://slideslive.com/39031682/beyond-decoding-metageneration-algorithms-for-large-language-models?ref=search-presentations" target="_blank">
 <div class="talk-thumbnail">
     <img src="/assets/img/talks/tuto-inference.png" alt="Meta-Generation Algorithms">
@@ -392,7 +524,7 @@ nav_order: 1
 <div class="talk-info">
 <div class="talk-title">Faith and Fate: Limits of Transformers on Compositionality</div>
 <div class="talk-event">SAIL Workshop</div>
-<div class="talk-year">Nov 2023</div>
+<div class="talk-year">Oct 2023</div>
 </div>
 </a>
 </div>
@@ -425,7 +557,29 @@ nav_order: 1
 <div class="talk-info">
 <div class="talk-title">Towards Building Faithful Conversational Models</div>
 <div class="talk-event">Stanford NLP Seminar</div>
-<div class="talk-year">Jun 2022</div>
+<div class="talk-year">Aug 2022</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">FaithDial</div>
+<div class="talk-info">
+<div class="talk-title">FaithDial: A Faithful Benchmark for Information-Seeking Dialogue</div>
+<div class="talk-event">Amazon Research, Seattle</div>
+<div class="talk-year">June 2022</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">FaithDial</div>
+<div class="talk-info">
+<div class="talk-title">FaithDial: A Faithful Benchmark for Information-Seeking Dialogue</div>
+<div class="talk-event">Google Research, NYC</div>
+<div class="talk-year">May 2022</div>
 </div>
 </a>
 </div>
