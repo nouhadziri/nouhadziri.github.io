@@ -104,6 +104,39 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">Agentic AI</div>
+<div class="talk-info">
+<div class="talk-title">Invited Talk on Agentic AI</div>
+<div class="talk-event">NeurIPS 2026, Sydney</div>
+<div class="talk-year">Dec 2026</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">Evaluating Agents</div>
+<div class="talk-info">
+<div class="talk-title">Evaluation in Agentic AI</div>
+<div class="talk-event">New York City</div>
+<div class="talk-year">Nov 2026</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">Agentic AI Panel</div>
+<div class="talk-info">
+<div class="talk-title">Panel: Agentic AI</div>
+<div class="talk-event">Mila - Quebec Artificial Intelligence Institute, Montreal</div>
+<div class="talk-year">Nov 2026</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="#" target="_blank">
 <div class="talk-thumbnail placeholder">Reasoning in LLMs</div>
 <div class="talk-info">
 <div class="talk-title">Understanding Reasoning in LLMs and (Agentic) LLMs</div>
