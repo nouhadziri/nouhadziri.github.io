@@ -147,6 +147,17 @@ nav_order: 1
 </div>
 
 <div class="talk-card">
+<a href="https://podcasts.apple.com/in/podcast/llms-arent-enough-teaching-agent-swarms-to-work-together/id1721516836?i=1000764391962&l=gu" target="_blank">
+<div class="talk-thumbnail placeholder">Agent Swarms</div>
+<div class="talk-info">
+<div class="talk-title">Podcast: LLMs Aren't Enough - Teaching Agent Swarms to Work Together</div>
+<div class="talk-event">ODSC's AI X Podcast, hosted by Sheamus McGovern</div>
+<div class="talk-year">April 2026</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
 <a href="#" target="_blank">
 <div class="talk-thumbnail placeholder">Why LLMs Still Fail</div>
 <div class="talk-info">
