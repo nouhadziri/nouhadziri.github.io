@@ -137,6 +137,39 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">Multi-Agent Systems</div>
+<div class="talk-info">
+<div class="talk-title">Multi-Agent Systems</div>
+<div class="talk-event">ODSC West 2026, San Francisco</div>
+<div class="talk-year">Oct 2026</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">Multi-Agent Systems</div>
+<div class="talk-info">
+<div class="talk-title">Multi-Agent Systems</div>
+<div class="talk-event">COLM 2026, San Francisco</div>
+<div class="talk-year">Oct 2026</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">ALL IN</div>
+<div class="talk-info">
+<div class="talk-title">Invited Talk</div>
+<div class="talk-event">ALL IN, Montreal</div>
+<div class="talk-year">Sept 2026</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="#" target="_blank">
 <div class="talk-thumbnail placeholder">Reasoning in LLMs</div>
 <div class="talk-info">
 <div class="talk-title">Understanding Reasoning in LLMs and (Agentic) LLMs</div>

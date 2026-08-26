@@ -162,6 +162,9 @@ external_sources: []
 # Collections
 # -----------------------------------------------------------------------------
 
+# Publish news items dated in the future (upcoming talks)
+future: true
+
 collections:
   news:
     defaults:
