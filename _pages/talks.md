@@ -159,6 +159,17 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
+<div class="talk-thumbnail placeholder">Edge of Knowledge</div>
+<div class="talk-info">
+<div class="talk-title">The Unexplained Surprise: Information at the Edge of Knowledge</div>
+<div class="talk-event">Error Correction Seminar, University of Basel, Switzerland</div>
+<div class="talk-year">Oct 2026</div>
+</div>
+</a>
+</div>
+
+<div class="talk-card">
+<a href="#" target="_blank">
 <div class="talk-thumbnail placeholder">ALL IN</div>
 <div class="talk-info">
 <div class="talk-title">Invited Talk</div>
