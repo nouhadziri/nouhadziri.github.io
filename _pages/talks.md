@@ -37,15 +37,48 @@ nav_order: 1
 }
 
 .talk-thumbnail.placeholder {
-    background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+    background-color: #fbfaf8;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.055) 1px, transparent 1px);
+    background-size: 13px 13px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
-    font-size: 1.1rem;
-    font-weight: 500;
     text-align: center;
-    padding: 20px;
+    padding: 20px 22px;
+}
+
+.talk-thumbnail.placeholder .ph-main {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #2f2f2f;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+}
+
+.talk-thumbnail.placeholder .ph-sub {
+    font-size: 0.78rem;
+    font-weight: 400;
+    color: #8d8d8d;
+    margin-top: 7px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.talk-thumbnail.placeholder::after {
+    content: "";
+    width: 26px;
+    height: 3px;
+    border-radius: 2px;
+    margin-top: 15px;
+    background: var(--global-theme-color, #265ed4);
+    opacity: 0.8;
+    transition: width 0.2s ease;
+}
+
+.talk-card:hover .talk-thumbnail.placeholder::after {
+    width: 48px;
 }
 
 .talk-info {
@@ -104,7 +137,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">Agentic AI</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">NeurIPS 2026</span><span class="ph-sub">Sydney</span></div>
 <div class="talk-info">
 <div class="talk-title">Invited Talk on Agentic AI</div>
 <div class="talk-event">NeurIPS 2026, Sydney</div>
@@ -115,7 +148,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">Evaluating Agents</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">New York City</span></div>
 <div class="talk-info">
 <div class="talk-title">Evaluation in Agentic AI</div>
 <div class="talk-event">New York City</div>
@@ -126,7 +159,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">Agentic AI Panel</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">Mila</span><span class="ph-sub">Montréal</span></div>
 <div class="talk-info">
 <div class="talk-title">Panel: Agentic AI</div>
 <div class="talk-event">Mila - Quebec Artificial Intelligence Institute, Montreal</div>
@@ -137,7 +170,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">Multi-Agent Systems</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">ODSC West</span><span class="ph-sub">San Francisco</span></div>
 <div class="talk-info">
 <div class="talk-title">Multi-Agent Systems</div>
 <div class="talk-event">ODSC West 2026, San Francisco</div>
@@ -148,7 +181,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">Multi-Agent Systems</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">COLM 2026</span><span class="ph-sub">San Francisco</span></div>
 <div class="talk-info">
 <div class="talk-title">Multi-Agent Systems</div>
 <div class="talk-event">COLM 2026, San Francisco</div>
@@ -159,7 +192,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">Edge of Knowledge</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">University of Basel</span><span class="ph-sub">Switzerland</span></div>
 <div class="talk-info">
 <div class="talk-title">The Unexplained Surprise: Information at the Edge of Knowledge</div>
 <div class="talk-event">Error Correction Seminar, University of Basel, Switzerland</div>
@@ -170,7 +203,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">ALL IN</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">ALL IN</span><span class="ph-sub">Montréal</span></div>
 <div class="talk-info">
 <div class="talk-title">Invited Talk</div>
 <div class="talk-event">ALL IN, Montreal</div>
@@ -181,7 +214,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">Reasoning in LLMs</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">ICML 2026</span><span class="ph-sub">Compositional Learning</span></div>
 <div class="talk-info">
 <div class="talk-title">Understanding Reasoning in LLMs and (Agentic) LLMs</div>
 <div class="talk-event">ICML 2026 Workshop on Compositional Learning: Safety and Agents</div>
@@ -192,7 +225,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">Coding Agents</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">ICML 2026</span><span class="ph-sub">Failure Modes</span></div>
 <div class="talk-info">
 <div class="talk-title">How Coding Agents Fail: Coordination and Honesty</div>
 <div class="talk-event">ICML 2026 Workshop on Failure Modes in Agentic AI</div>
@@ -203,7 +236,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">Knowledge Control</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">ACL 2026</span><span class="ph-sub">Tutorial</span></div>
 <div class="talk-info">
 <div class="talk-title">Panel: Knowledge Control for Responsible Generative AI</div>
 <div class="talk-event">ACL 2026 Tutorial, San Diego (with Jindong Gu and Yuning Mao)</div>
@@ -214,7 +247,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">Agent Safety</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">CVPR 2026</span><span class="ph-sub">Workshop</span></div>
 <div class="talk-info">
 <div class="talk-title">Emergent Safety Risks in Multi-Agent and Single-Agent Systems</div>
 <div class="talk-event">CVPR 2026 Workshop on Safety of Vision-Language Agents</div>
@@ -225,7 +258,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://podcasts.apple.com/in/podcast/llms-arent-enough-teaching-agent-swarms-to-work-together/id1721516836?i=1000764391962&l=gu" target="_blank">
-<div class="talk-thumbnail placeholder">Agent Swarms</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">AI X Podcast</span><span class="ph-sub">ODSC</span></div>
 <div class="talk-info">
 <div class="talk-title">Podcast: LLMs Aren't Enough - Teaching Agent Swarms to Work Together</div>
 <div class="talk-event">ODSC's AI X Podcast, hosted by Sheamus McGovern</div>
@@ -236,7 +269,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">Why LLMs Still Fail</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">ODSC AI East</span><span class="ph-sub">Keynote</span></div>
 <div class="talk-info">
 <div class="talk-title">Why LLMs Still Fail: Reasoning, Robustness, and Safety</div>
 <div class="talk-event">ODSC AI East 2026 (Keynote)</div>
@@ -247,7 +280,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">Reasoning in LRMs</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">ICLR 2026</span><span class="ph-sub">Post-training</span></div>
 <div class="talk-info">
 <div class="talk-title">Understanding and Improving Reasoning in Large Reasoning Models</div>
 <div class="talk-event">ICLR 2026 Workshop on Scaling Post-training for LLMs</div>
@@ -258,7 +291,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">Reasoning in LRMs</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">ICLR 2026</span><span class="ph-sub">Multimodal</span></div>
 <div class="talk-info">
 <div class="talk-title">Understanding and Improving Reasoning in Large Reasoning Models</div>
 <div class="talk-event">ICLR 2026 Workshop on Multimodal Intelligence</div>
@@ -269,7 +302,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">Multi-Agent Systems</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">IVADO</span><span class="ph-sub">Social Reasoning</span></div>
 <div class="talk-info">
 <div class="talk-title">From Single Models to Multi-Agent Systems and Their Risks</div>
 <div class="talk-event">IVADO Workshop on Social Reasoning and the Ecology of Thought</div>
@@ -280,7 +313,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">Reasoning in LLMs</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">IVADO</span><span class="ph-sub">Cognitive Basis</span></div>
 <div class="talk-info">
 <div class="talk-title">Reasoning in LLMs</div>
 <div class="talk-event">IVADO Workshop on Cognitive Basis of Reasoning (in Minds and AI), Montreal</div>
@@ -291,7 +324,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://neurips.cc/virtual/2025/loc/mexico-city/128795" target="_blank">
-<div class="talk-thumbnail placeholder">Trustworthy Foundation Models</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">NeurIPS 2025</span><span class="ph-sub">Tutorial</span></div>
 <div class="talk-info">
 <div class="talk-title">Panel: Science of Trustworthy Generative Foundation Models</div>
 <div class="talk-event">NeurIPS 2025 Tutorial, San Diego (with Pin-Yu Chen, Max Lamparth, and Canyu Chen)</div>
@@ -472,7 +505,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">In-Context Learning</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">Causality Workshop</span><span class="ph-sub">Barbados</span></div>
 <div class="talk-info">
 <div class="talk-title">In-Context Learning in LLMs: Potential and Limits</div>
 <div class="talk-event">Causality in the Era of Foundation Models Workshop, Barbados</div>
@@ -483,7 +516,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">Red-teaming LLMs</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">IASEAI</span><span class="ph-sub">Paris</span></div>
 <div class="talk-info">
 <div class="talk-title">Red-teaming and Safeguarding LLMs</div>
 <div class="talk-event">International Association for Safe and Ethical AI (IASEAI), Paris</div>
@@ -564,7 +597,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">Faith and Fate</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">University of Cambridge</span></div>
 <div class="talk-info">
 <div class="talk-title">Faith and Fate: Limits of Transformers LLMs</div>
 <div class="talk-event">University of Cambridge</div>
@@ -575,7 +608,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">Generative AI Limits</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">Princeton University</span></div>
 <div class="talk-info">
 <div class="talk-title">Limits of Generative AI Models and Societal Implications</div>
 <div class="talk-event">Princeton University</div>
@@ -586,7 +619,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://sites.google.com/view/fm-eval-workshop/home" target="_blank">
-<div class="talk-thumbnail placeholder">Limits of LLM Transformers</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">Alan Turing Institute</span><span class="ph-sub">London</span></div>
 <div class="talk-info">
 <div class="talk-title">Faith and Fate: Limits of Transformers on Compositionality</div>
 <div class="talk-event">The Alan Turing Institute</div>
@@ -597,7 +630,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://web.inf.ed.ac.uk/ilcc/news-events/seminars-2023/nuaha-dziri-seminar" target="_blank">
-<div class="talk-thumbnail placeholder">Limits of LLM Transformers</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">University of Edinburgh</span></div>
 <div class="talk-info">
 <div class="talk-title">Faith and Fate: Limits of Transformers on Compositionality</div>
 <div class="talk-event">University of Edinburgh</div>
@@ -608,7 +641,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://sites.google.com/view/sail-ws-llms/program" target="_blank">
-<div class="talk-thumbnail placeholder">Limits of LLM Transformers</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">SAIL Workshop</span></div>
 <div class="talk-info">
 <div class="talk-title">Faith and Fate: Limits of Transformers on Compositionality</div>
 <div class="talk-event">SAIL Workshop</div>
@@ -619,7 +652,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://calendar.pitt.edu/event/cs_seminar_faith_and_fate_limits_of_transformers_on_compositionality" target="_blank">
-<div class="talk-thumbnail placeholder">Limits of LLM Transformers</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">University of Pittsburgh</span></div>
 <div class="talk-info">
 <div class="talk-title">Faith and Fate: Limits of Transformers on Compositionality</div>
 <div class="talk-event">University of Pittsburgh</div>
@@ -630,7 +663,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://www.youtube.com/watch?v=I_JrRMqL8zk" target="_blank">
-<div class="talk-thumbnail placeholder">Limits of LLM Transformers</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">FLANN Seminar</span></div>
 <div class="talk-info">
 <div class="talk-title">Faith and Fate: Limits of Transformers on Compositionality</div>
 <div class="talk-event">FLANN Seminar</div>
@@ -641,7 +674,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="https://nlp.stanford.edu/seminar/details/nouhadziri.shtml" target="_blank">
-<div class="talk-thumbnail placeholder">Building Faithful Conversational Models</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">Stanford NLP</span><span class="ph-sub">Seminar</span></div>
 <div class="talk-info">
 <div class="talk-title">Towards Building Faithful Conversational Models</div>
 <div class="talk-event">Stanford NLP Seminar</div>
@@ -652,7 +685,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">FaithDial</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">Amazon Research</span><span class="ph-sub">Seattle</span></div>
 <div class="talk-info">
 <div class="talk-title">FaithDial: A Faithful Benchmark for Information-Seeking Dialogue</div>
 <div class="talk-event">Amazon Research, Seattle</div>
@@ -663,7 +696,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">FaithDial</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">Google Research</span><span class="ph-sub">New York</span></div>
 <div class="talk-info">
 <div class="talk-title">FaithDial: A Faithful Benchmark for Information-Seeking Dialogue</div>
 <div class="talk-event">Google Research, NYC</div>
@@ -674,7 +707,7 @@ nav_order: 1
 
 <div class="talk-card">
 <a href="#" target="_blank">
-<div class="talk-thumbnail placeholder">Dialogue Systems</div>
+<div class="talk-thumbnail placeholder"><span class="ph-main">DeepMind</span><span class="ph-sub">Montréal</span></div>
 <div class="talk-info">
 <div class="talk-title">Evaluating Consistency in Dialogue Systems</div>
 <div class="talk-event">DeepMind Montreal</div>
